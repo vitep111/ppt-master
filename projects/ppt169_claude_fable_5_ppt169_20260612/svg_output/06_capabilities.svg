@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <g id="background">
+    <rect width="1280" height="720" fill="#FFFFFF"/>
+  </g>
+
+  <g id="header">
+    <rect x="80" y="52" width="44" height="4" rx="2" fill="#D97757"/>
+    <text x="80" y="100" font-family="&quot;Styrene A&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="32" font-weight="700" fill="#191919">The gains land above what prior models could do</text>
+    <text x="80" y="130" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="14" font-weight="700" fill="#64748B" letter-spacing="2">04 · HEADLINE CAPABILITIES — DON&apos;T EVALUATE IT ONLY ON YESTERDAY&apos;S WORKLOADS</text>
+  </g>
+
+  <g id="card-autonomy">
+    <rect x="80" y="162" width="360" height="245" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+    <text x="412" y="222" text-anchor="end" font-family="&quot;Styrene A&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="48" font-weight="700" fill="#D97757" fill-opacity="0.10">01</text>
+    <rect x="106" y="188" width="52" height="52" rx="12" fill="#F8FAFC"/>
+    <use data-icon="tabler-outline/clock-play" x="116" y="198" width="32" height="32" fill="#D97757" stroke-width="2"/>
+    <text x="106" y="280" font-family="&quot;Styrene A&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="19" font-weight="700" fill="#191919">Long-horizon autonomy</text>
+    <text x="106" y="300" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="11" font-weight="bold" fill="#D97757" letter-spacing="1.5">MULTI-HOUR RUNS</text>
+    <text x="106" y="332" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="13" fill="#64748B">
+      <tspan x="106" dy="0">Overnight work completes without human</tspan>
+      <tspan x="106" dy="20">correction; a 15-minute single request is</tspan>
+      <tspan x="106" dy="20">normal when the task self-verifies.</tspan>
+    </text>
+  </g>
+
+  <g id="card-engineering">
+    <rect x="470" y="162" width="360" height="245" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+    <text x="802" y="222" text-anchor="end" font-family="&quot;Styrene A&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="48" font-weight="700" fill="#D97757" fill-opacity="0.10">02</text>
+    <rect x="496" y="188" width="52" height="52" rx="12" fill="#F8FAFC"/>
+    <use data-icon="tabler-outline/code" x="506" y="198" width="32" height="32" fill="#D97757" stroke-width="2"/>
+    <text x="496" y="280" font-family="&quot;Styrene A&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="19" font-weight="700" fill="#191919">Software engineering</text>
+    <text x="496" y="300" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="11" font-weight="bold" fill="#D97757" letter-spacing="1.5">MONTHS INTO DAYS</text>
+    <text x="496" y="332" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="13" fill="#64748B">
+      <tspan x="496" dy="0">First-shot builds of well-specified systems,</tspan>
+      <tspan x="496" dy="20">large migrations, and complex refactors</tspan>
+      <tspan x="496" dy="20">that previously took teams months.</tspan>
+    </text>
+  </g>
+
+  <g id="card-knowledge">
+    <rect x="860" y="162" width="360" height="245" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+    <text x="1192" y="222" text-anchor="end" font-family="&quot;Styrene A&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="48" font-weight="700" fill="#D97757" fill-opacity="0.10">03</text>
+    <rect x="886" y="188" width="52" height="52" rx="12" fill="#F8FAFC"/>
+    <use data-icon="tabler-outline/chart-bar" x="896" y="198" width="32" height="32" fill="#D97757" stroke-width="2"/>
+    <text x="886" y="280" font-family="&quot;Styrene A&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="19" font-weight="700" fill="#191919">Knowledge work</text>
+    <text x="886" y="300" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="11" font-weight="bold" fill="#D97757" letter-spacing="1.5">BENCHMARK-LEADING FINANCE</text>
+    <text x="886" y="332" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="13" fill="#64748B">
+      <tspan x="886" dy="0">Top performance on finance benchmarks;</tspan>
+      <tspan x="886" dy="20">end-to-end enterprise deliverables —</tspan>
+      <tspan x="886" dy="20">analysis, spreadsheets, slides, documents.</tspan>
+    </text>
+  </g>
+
+  <g id="card-vision">
+    <rect x="80" y="425" width="360" height="245" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+    <text x="412" y="485" text-anchor="end" font-family="&quot;Styrene A&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="48" font-weight="700" fill="#D97757" fill-opacity="0.10">04</text>
+    <rect x="106" y="451" width="52" height="52" rx="12" fill="#F8FAFC"/>
+    <use data-icon="tabler-outline/eye" x="116" y="461" width="32" height="32" fill="#D97757" stroke-width="2"/>
+    <text x="106" y="543" font-family="&quot;Styrene A&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="19" font-weight="700" fill="#191919">Vision</text>
+    <text x="106" y="563" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="11" font-weight="bold" fill="#D97757" letter-spacing="1.5">STATE OF THE ART</text>
+    <text x="106" y="595" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="13" fill="#64748B">
+      <tspan x="106" dy="0">Reads dense or degraded images — trained</tspan>
+      <tspan x="106" dy="20">to crop, rotate, and inspect; played Pokémon</tspan>
+      <tspan x="106" dy="20">FireRed from screenshots alone.</tspan>
+    </text>
+  </g>
+
+  <g id="card-context">
+    <rect x="470" y="425" width="360" height="245" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+    <text x="802" y="485" text-anchor="end" font-family="&quot;Styrene A&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="48" font-weight="700" fill="#D97757" fill-opacity="0.10">05</text>
+    <rect x="496" y="451" width="52" height="52" rx="12" fill="#F8FAFC"/>
+    <use data-icon="tabler-outline/database" x="506" y="461" width="32" height="32" fill="#D97757" stroke-width="2"/>
+    <text x="496" y="543" font-family="&quot;Styrene A&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="19" font-weight="700" fill="#191919">Long context + memory</text>
+    <text x="496" y="563" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="11" font-weight="bold" fill="#D97757" letter-spacing="1.5">MILLIONS OF TOKENS</text>
+    <text x="496" y="595" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="13" fill="#64748B">
+      <tspan x="496" dy="0">Stays effective across the 1M window and</tspan>
+      <tspan x="496" dy="20">performs notably better when given a</tspan>
+      <tspan x="496" dy="20">memory surface to write learnings to.</tspan>
+    </text>
+  </g>
+
+  <g id="card-multiagent">
+    <rect x="860" y="425" width="360" height="245" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+    <text x="1192" y="485" text-anchor="end" font-family="&quot;Styrene A&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="48" font-weight="700" fill="#D97757" fill-opacity="0.10">06</text>
+    <rect x="886" y="451" width="52" height="52" rx="12" fill="#F8FAFC"/>
+    <use data-icon="tabler-outline/users-group" x="896" y="461" width="32" height="32" fill="#D97757" stroke-width="2"/>
+    <text x="886" y="543" font-family="&quot;Styrene A&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="19" font-weight="700" fill="#191919">Multi-agent orchestration</text>
+    <text x="886" y="563" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="11" font-weight="bold" fill="#D97757" letter-spacing="1.5">PARALLEL DELEGATION</text>
+    <text x="886" y="595" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="13" fill="#64748B">
+      <tspan x="886" dy="0">Dependable parallel sub-agents, with</tspan>
+      <tspan x="886" dy="20">sustained communication to long-running</tspan>
+      <tspan x="886" dy="20">workers and peer agents.</tspan>
+    </text>
+  </g>
+
+  <g id="footer">
+    <text x="80" y="692" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="11" fill="#94A3B8">Source: Anthropic launch announcement, June 2026</text>
+    <text x="1200" y="692" text-anchor="end" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="11" fill="#94A3B8">06</text>
+  </g>
+</svg>

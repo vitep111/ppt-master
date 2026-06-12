@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <g id="background">
+    <rect width="1280" height="720" fill="#FFFFFF"/>
+  </g>
+
+  <g id="header">
+    <rect x="80" y="52" width="44" height="4" rx="2" fill="#D97757"/>
+    <text x="80" y="100" font-family="&quot;Styrene A&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="32" font-weight="700" fill="#191919">Same Messages API, a few Fable-specific behaviors</text>
+    <text x="80" y="130" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="14" font-weight="700" fill="#64748B" letter-spacing="2">07 · DEVELOPER EXPERIENCE — A MODEL-ID SWAP PLUS THREE THINGS TO PLAN FOR</text>
+  </g>
+
+  <g id="pillar-thinking">
+    <rect x="80" y="170" width="260" height="450" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+    <path d="M 92 170 h 236 a 12 12 0 0 1 12 12 v 86 h -260 v -86 a 12 12 0 0 1 12 -12 Z" fill="#F8FAFC"/>
+    <use data-icon="tabler-outline/brain" x="192" y="190" width="36" height="36" fill="#D97757" stroke-width="2"/>
+    <text x="210" y="254" text-anchor="middle" font-family="&quot;Styrene A&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="17" font-weight="700" fill="#191919">Thinking, always on</text>
+    <line x1="100" y1="284" x2="320" y2="284" stroke="#E2E8F0" stroke-width="2"/>
+    <circle cx="110" cy="322" r="3.5" fill="#D97757"/>
+    <text x="124" y="327" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="14" font-weight="bold" fill="#191919">Adaptive only</text>
+    <text x="124" y="347" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="12" fill="#64748B">
+      <tspan x="124" dy="0">Omit the thinking param;</tspan>
+      <tspan x="124" dy="18">disabling it returns a 400.</tspan>
+    </text>
+    <circle cx="110" cy="406" r="3.5" fill="#D97757"/>
+    <text x="124" y="411" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="14" font-weight="bold" fill="#191919">Depth via effort</text>
+    <text x="124" y="431" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="12" fill="#64748B">
+      <tspan x="124" dy="0">Control with effort low →</tspan>
+      <tspan x="124" dy="18">xhigh and max, not budgets.</tspan>
+    </text>
+    <circle cx="110" cy="490" r="3.5" fill="#D97757"/>
+    <text x="124" y="495" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="14" font-weight="bold" fill="#191919">Low goes far</text>
+    <text x="124" y="515" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="12" fill="#64748B">
+      <tspan x="124" dy="0">Low effort often exceeds</tspan>
+      <tspan x="124" dy="18">prior models at max.</tspan>
+    </text>
+  </g>
+
+  <g id="pillar-fallback">
+    <rect x="373" y="170" width="260" height="450" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+    <path d="M 385 170 h 236 a 12 12 0 0 1 12 12 v 86 h -260 v -86 a 12 12 0 0 1 12 -12 Z" fill="#F8FAFC"/>
+    <use data-icon="tabler-outline/refresh" x="485" y="190" width="36" height="36" fill="#D97757" stroke-width="2"/>
+    <text x="503" y="254" text-anchor="middle" font-family="&quot;Styrene A&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="17" font-weight="700" fill="#191919">Refusals &amp; fallback</text>
+    <line x1="393" y1="284" x2="613" y2="284" stroke="#E2E8F0" stroke-width="2"/>
+    <circle cx="403" cy="322" r="3.5" fill="#D97757"/>
+    <text x="417" y="327" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="14" font-weight="bold" fill="#191919">Check stop_reason</text>
+    <text x="417" y="347" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="12" fill="#64748B">
+      <tspan x="417" dy="0">Classifiers decline via HTTP</tspan>
+      <tspan x="417" dy="18">200 + stop_reason refusal.</tspan>
+    </text>
+    <circle cx="403" cy="406" r="3.5" fill="#D97757"/>
+    <text x="417" y="411" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="14" font-weight="bold" fill="#191919">Retry on Opus 4.8</text>
+    <text x="417" y="431" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="12" fill="#64748B">
+      <tspan x="417" dy="0">Server-side fallbacks, SDK</tspan>
+      <tspan x="417" dy="18">middleware, or manual retry.</tspan>
+    </text>
+    <circle cx="403" cy="490" r="3.5" fill="#D97757"/>
+    <text x="417" y="495" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="14" font-weight="bold" fill="#191919">Fair billing</text>
+    <text x="417" y="515" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="12" fill="#64748B">
+      <tspan x="417" dy="0">Pre-output refusals are free;</tspan>
+      <tspan x="417" dy="18">credit covers cache switch.</tspan>
+    </text>
+  </g>
+
+  <g id="pillar-features">
+    <rect x="666" y="170" width="260" height="450" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+    <path d="M 678 170 h 236 a 12 12 0 0 1 12 12 v 86 h -260 v -86 a 12 12 0 0 1 12 -12 Z" fill="#F8FAFC"/>
+    <use data-icon="tabler-outline/adjustments-horizontal" x="778" y="190" width="36" height="36" fill="#D97757" stroke-width="2"/>
+    <text x="796" y="254" text-anchor="middle" font-family="&quot;Styrene A&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="17" font-weight="700" fill="#191919">Launch feature set</text>
+    <line x1="686" y1="284" x2="906" y2="284" stroke="#E2E8F0" stroke-width="2"/>
+    <circle cx="696" cy="322" r="3.5" fill="#D97757"/>
+    <text x="710" y="327" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="14" font-weight="bold" fill="#191919">Spend controls</text>
+    <text x="710" y="347" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="12" fill="#64748B">
+      <tspan x="710" dy="0">Effort parameter plus task</tspan>
+      <tspan x="710" dy="18">budgets (beta) for loops.</tspan>
+    </text>
+    <circle cx="696" cy="406" r="3.5" fill="#D97757"/>
+    <text x="710" y="411" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="14" font-weight="bold" fill="#191919">Agent tooling</text>
+    <text x="710" y="431" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="12" fill="#64748B">
+      <tspan x="710" dy="0">Memory tool, code execution,</tspan>
+      <tspan x="710" dy="18">programmatic tool calling.</tspan>
+    </text>
+    <circle cx="696" cy="490" r="3.5" fill="#D97757"/>
+    <text x="710" y="495" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="14" font-weight="bold" fill="#191919">Context features</text>
+    <text x="710" y="515" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="12" fill="#64748B">
+      <tspan x="710" dy="0">Compaction, context editing,</tspan>
+      <tspan x="710" dy="18">high-resolution vision.</tspan>
+    </text>
+  </g>
+
+  <g id="pillar-platforms">
+    <rect x="959" y="170" width="260" height="450" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+    <path d="M 971 170 h 236 a 12 12 0 0 1 12 12 v 86 h -260 v -86 a 12 12 0 0 1 12 -12 Z" fill="#F8FAFC"/>
+    <use data-icon="tabler-outline/world" x="1071" y="190" width="36" height="36" fill="#D97757" stroke-width="2"/>
+    <text x="1089" y="254" text-anchor="middle" font-family="&quot;Styrene A&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="17" font-weight="700" fill="#191919">Where it runs</text>
+    <line x1="979" y1="284" x2="1199" y2="284" stroke="#E2E8F0" stroke-width="2"/>
+    <circle cx="989" cy="322" r="3.5" fill="#D97757"/>
+    <text x="1003" y="327" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="14" font-weight="bold" fill="#191919">First-party</text>
+    <text x="1003" y="347" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="12" fill="#64748B">
+      <tspan x="1003" dy="0">Claude API and Claude</tspan>
+      <tspan x="1003" dy="18">Platform on AWS.</tspan>
+    </text>
+    <circle cx="989" cy="406" r="3.5" fill="#D97757"/>
+    <text x="1003" y="411" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="14" font-weight="bold" fill="#191919">Cloud partners</text>
+    <text x="1003" y="431" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="12" fill="#64748B">
+      <tspan x="1003" dy="0">Amazon Bedrock, Vertex AI,</tspan>
+      <tspan x="1003" dy="18">Microsoft Foundry.</tspan>
+    </text>
+    <circle cx="989" cy="490" r="3.5" fill="#D97757"/>
+    <text x="1003" y="495" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="14" font-weight="bold" fill="#191919">One requirement</text>
+    <text x="1003" y="515" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="12" fill="#64748B">
+      <tspan x="1003" dy="0">30-day data retention —</tspan>
+      <tspan x="1003" dy="18">not available under ZDR.</tspan>
+    </text>
+  </g>
+
+  <g id="footer">
+    <text x="80" y="692" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="11" fill="#94A3B8">Source: platform.claude.com — Messages API on Claude Fable 5; migration guide</text>
+    <text x="1200" y="692" text-anchor="end" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="11" fill="#94A3B8">11</text>
+  </g>
+</svg>

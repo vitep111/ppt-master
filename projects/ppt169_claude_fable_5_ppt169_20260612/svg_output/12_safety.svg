@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <g id="background">
+    <rect width="1280" height="720" fill="#FFFFFF"/>
+  </g>
+
+  <g id="header">
+    <rect x="80" y="52" width="44" height="4" rx="2" fill="#D97757"/>
+    <text x="80" y="100" font-family="&quot;Styrene A&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="32" font-weight="700" fill="#191919">Frontier capability, shipped responsibly</text>
+    <text x="80" y="130" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="14" font-weight="700" fill="#64748B" letter-spacing="2">08 · SAFETY ARCHITECTURE — THREE SAFEGUARDS TRAVEL WITH FABLE 5</text>
+  </g>
+
+  <g id="rail">
+    <line x1="120" y1="200" x2="120" y2="540" stroke="#D97757" stroke-width="3" stroke-linecap="round" stroke-opacity="0.35"/>
+  </g>
+
+  <g id="row-classifiers">
+    <circle cx="120" cy="240" r="22" fill="#D97757"/>
+    <text x="120" y="246" text-anchor="middle" font-family="&quot;Styrene A&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="15" font-weight="700" fill="#FFFFFF">1</text>
+    <rect x="172" y="188" width="1048" height="104" rx="10" fill="#F8FAFC"/>
+    <use data-icon="tabler-outline/shield-check" x="204" y="220" width="40" height="40" fill="#D97757" stroke-width="2"/>
+    <text x="276" y="226" font-family="&quot;Styrene A&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="19" font-weight="700" fill="#191919">Dual-use classifiers</text>
+    <text x="276" y="254" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="14" fill="#64748B">
+      <tspan x="276" dy="0">Detect and block harmful <tspan font-weight="bold" fill="#191919">cybersecurity, bio/chem, and model-distillation</tspan> requests.</tspan>
+      <tspan x="276" dy="22">Blocked queries fall back to Opus 4.8 instead of dead-ending.</tspan>
+    </text>
+  </g>
+
+  <g id="row-jailbreak">
+    <circle cx="120" cy="380" r="22" fill="#D97757"/>
+    <text x="120" y="386" text-anchor="middle" font-family="&quot;Styrene A&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="15" font-weight="700" fill="#FFFFFF">2</text>
+    <rect x="172" y="328" width="1048" height="104" rx="10" fill="#F8FAFC"/>
+    <use data-icon="tabler-outline/shield-lock" x="204" y="360" width="40" height="40" fill="#D97757" stroke-width="2"/>
+    <text x="276" y="366" font-family="&quot;Styrene A&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="19" font-weight="700" fill="#191919">Jailbreak resistance</text>
+    <text x="276" y="394" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="14" fill="#64748B">
+      <tspan x="276" dy="0"><tspan font-weight="bold" fill="#D97757">1,000+ hours</tspan> of external red-teaming before launch produced</tspan>
+      <tspan x="276" dy="22"><tspan font-weight="bold" fill="#191919">no universal jailbreaks</tspan>.</tspan>
+    </text>
+  </g>
+
+  <g id="row-retention">
+    <circle cx="120" cy="520" r="22" fill="#D97757"/>
+    <text x="120" y="526" text-anchor="middle" font-family="&quot;Styrene A&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="15" font-weight="700" fill="#FFFFFF">3</text>
+    <rect x="172" y="468" width="1048" height="104" rx="10" fill="#F8FAFC"/>
+    <use data-icon="tabler-outline/lock" x="204" y="500" width="40" height="40" fill="#D97757" stroke-width="2"/>
+    <text x="276" y="506" font-family="&quot;Styrene A&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="19" font-weight="700" fill="#191919">Data retention</text>
+    <text x="276" y="534" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="14" fill="#64748B">
+      <tspan x="276" dy="0"><tspan font-weight="bold" fill="#191919">30-day policy</tspan> required for all Fable 5 traffic — data is used for safety purposes only,</tspan>
+      <tspan x="276" dy="22">then deleted.</tspan>
+    </text>
+  </g>
+
+  <g id="footnote-band">
+    <rect x="172" y="600" width="1048" height="48" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5" stroke-dasharray="6 4"/>
+    <text x="696" y="630" text-anchor="middle" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="13" fill="#64748B">Mythos 5 is the <tspan font-weight="bold" fill="#191919">same model with safeguards lifted</tspan> for vetted defense and research partners via trusted-access programs.</text>
+  </g>
+
+  <g id="footer">
+    <text x="80" y="692" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="11" fill="#94A3B8">Source: Anthropic launch announcement — safety section, June 2026</text>
+    <text x="1200" y="692" text-anchor="end" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="11" fill="#94A3B8">12</text>
+  </g>
+</svg>

@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <g id="background">
+    <rect width="1280" height="720" fill="#FFFFFF"/>
+  </g>
+
+  <g id="header">
+    <rect x="80" y="52" width="44" height="4" rx="2" fill="#D97757"/>
+    <text x="80" y="100" font-family="&quot;Styrene A&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="32" font-weight="700" fill="#191919">The Mythos class sits above Opus</text>
+    <text x="80" y="130" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="14" font-weight="700" fill="#64748B" letter-spacing="2">02 · THE MODEL FAMILY — AND FABLE 5 IS ITS GENERALLY AVAILABLE FACE</text>
+  </g>
+
+  <g id="pyramid">
+    <polygon points="330,168 400,268 260,268" fill="#D97757"/>
+    <polygon points="255,276 405,276 453,364 207,364" fill="#D97757" fill-opacity="0.75"/>
+    <polygon points="202,372 458,372 506,460 154,460" fill="#D97757" fill-opacity="0.45"/>
+    <polygon points="150,468 510,468 559,556 101,556" fill="#D97757" fill-opacity="0.22"/>
+    <text x="330" y="252" text-anchor="middle" font-family="&quot;Styrene A&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" letter-spacing="1">MYTHOS</text>
+    <text x="330" y="326" text-anchor="middle" font-family="&quot;Styrene A&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="15" font-weight="700" fill="#FFFFFF" letter-spacing="1.5">OPUS 4.8</text>
+    <text x="330" y="422" text-anchor="middle" font-family="&quot;Styrene A&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="16" font-weight="700" fill="#191919" letter-spacing="1.5">SONNET 4.6</text>
+    <text x="330" y="518" text-anchor="middle" font-family="&quot;Styrene A&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="17" font-weight="700" fill="#191919" letter-spacing="2">HAIKU 4.5</text>
+  </g>
+
+  <g id="tier-annotations">
+    <line x1="382" y1="225" x2="575" y2="225" stroke="#94A3B8" stroke-width="1.5" stroke-dasharray="4,4"/>
+    <text x="590" y="212" font-family="&quot;Styrene A&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="17" font-weight="700" fill="#191919">Mythos class <tspan font-weight="normal" fill="#D97757">— Fable 5 · Mythos 5</tspan></text>
+    <text x="590" y="234" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="13" fill="#64748B">$10 in · $50 out per MTok — frontier reasoning, long-horizon agents</text>
+
+    <line x1="434" y1="320" x2="575" y2="320" stroke="#94A3B8" stroke-width="1.5" stroke-dasharray="4,4"/>
+    <text x="590" y="310" font-family="&quot;Styrene A&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="16" font-weight="700" fill="#191919">Opus 4.8</text>
+    <text x="590" y="332" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="13" fill="#64748B">$5 · $25 — most capable Opus; the default for general work</text>
+
+    <line x1="487" y1="416" x2="575" y2="416" stroke="#94A3B8" stroke-width="1.5" stroke-dasharray="4,4"/>
+    <text x="590" y="406" font-family="&quot;Styrene A&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="16" font-weight="700" fill="#191919">Sonnet 4.6</text>
+    <text x="590" y="428" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="13" fill="#64748B">$3 · $15 — best speed × intelligence balance</text>
+
+    <line x1="540" y1="512" x2="575" y2="512" stroke="#94A3B8" stroke-width="1.5" stroke-dasharray="4,4"/>
+    <text x="590" y="502" font-family="&quot;Styrene A&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="16" font-weight="700" fill="#191919">Haiku 4.5</text>
+    <text x="590" y="524" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="13" fill="#64748B">$1 · $5 — fastest, most cost-effective</text>
+  </g>
+
+  <g id="panel-postures">
+    <rect x="930" y="170" width="290" height="386" rx="12" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+    <text x="958" y="214" font-family="&quot;Styrene A&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="18" font-weight="700" fill="#191919">Same model,</text>
+    <text x="958" y="238" font-family="&quot;Styrene A&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="18" font-weight="700" fill="#191919">two postures</text>
+
+    <text x="958" y="286" font-family="&quot;Styrene A&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="15" font-weight="700" fill="#D97757">Fable 5</text>
+    <use data-icon="tabler-outline/check" x="958" y="298" width="16" height="16" fill="#10B981" stroke-width="2"/>
+    <text x="982" y="311" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="13" fill="#191919">Generally available</text>
+    <use data-icon="tabler-outline/shield-check" x="958" y="322" width="16" height="16" fill="#10B981" stroke-width="2"/>
+    <text x="982" y="335" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="13" fill="#191919">Dual-use safety classifiers</text>
+
+    <line x1="958" y1="360" x2="1192" y2="360" stroke="#E2E8F0" stroke-width="1"/>
+
+    <text x="958" y="392" font-family="&quot;Styrene A&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="15" font-weight="700" fill="#191919">Mythos 5</text>
+    <use data-icon="tabler-outline/shield-lock" x="958" y="404" width="16" height="16" fill="#64748B" stroke-width="2"/>
+    <text x="982" y="417" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="13" fill="#191919">Without those classifiers</text>
+    <use data-icon="tabler-outline/lock" x="958" y="428" width="16" height="16" fill="#64748B" stroke-width="2"/>
+    <text x="982" y="441" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="13" fill="#191919">Project Glasswing only</text>
+
+    <line x1="958" y1="466" x2="1192" y2="466" stroke="#E2E8F0" stroke-width="1"/>
+
+    <text x="958" y="494" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="12" fill="#64748B">
+      <tspan x="958" dy="0">Reach for Fable 5 when the task</tspan>
+      <tspan x="958" dy="18">demands the highest available</tspan>
+      <tspan x="958" dy="18">intelligence; Opus 4.8 remains</tspan>
+      <tspan x="958" dy="18">the default for general work.</tspan>
+    </text>
+  </g>
+
+  <g id="footer">
+    <text x="80" y="692" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="11" fill="#94A3B8">Source: Anthropic model documentation, June 2026</text>
+    <text x="1200" y="692" text-anchor="end" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="11" fill="#94A3B8">04</text>
+  </g>
+</svg>

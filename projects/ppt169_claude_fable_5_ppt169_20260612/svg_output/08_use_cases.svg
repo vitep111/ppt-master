@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <g id="background">
+    <rect width="1280" height="720" fill="#FFFFFF"/>
+  </g>
+
+  <g id="header">
+    <rect x="80" y="48" width="44" height="4" rx="2" fill="#D97757"/>
+    <text x="80" y="96" font-family="&quot;Styrene A&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="32" font-weight="700" fill="#191919">Point it at the work you couldn&apos;t automate before</text>
+    <text x="80" y="126" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="14" font-weight="700" fill="#64748B" letter-spacing="2">06 · USE CASES — LONG, AMBIGUOUS, HIGH-STAKES WORK THAT RUNS END TO END</text>
+  </g>
+
+  <g id="rail">
+    <line x1="120" y1="180" x2="120" y2="624" stroke="#D97757" stroke-width="3" stroke-linecap="round" stroke-opacity="0.35"/>
+  </g>
+
+  <g id="row-coding">
+    <circle cx="120" cy="204" r="20" fill="#D97757"/>
+    <text x="120" y="210" text-anchor="middle" font-family="&quot;Styrene A&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">1</text>
+    <rect x="170" y="168" width="1050" height="72" rx="10" fill="#F8FAFC"/>
+    <rect x="170" y="168" width="5" height="72" rx="2.5" fill="#D97757"/>
+    <text x="200" y="198" font-family="&quot;Styrene A&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="18" font-weight="700" fill="#191919">Autonomous coding agents</text>
+    <text x="200" y="224" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="14" fill="#64748B">Overnight refactors, large migrations, and multi-repo changes that finish without correction.</text>
+    <use data-icon="tabler-outline/git-pull-request" x="1158" y="188" width="32" height="32" fill="#D97757" stroke-width="2"/>
+  </g>
+
+  <g id="row-research">
+    <circle cx="120" cy="288" r="20" fill="#D97757"/>
+    <text x="120" y="294" text-anchor="middle" font-family="&quot;Styrene A&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">2</text>
+    <rect x="170" y="252" width="1050" height="72" rx="10" fill="#F8FAFC"/>
+    <rect x="170" y="252" width="5" height="72" rx="2.5" fill="#D97757"/>
+    <text x="200" y="282" font-family="&quot;Styrene A&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="18" font-weight="700" fill="#191919">Deep research &amp; analysis</text>
+    <text x="200" y="308" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="14" fill="#64748B">Multi-source synthesis, financial modeling, and legal review across the <tspan font-weight="bold" fill="#D97757">1M-token</tspan> window.</text>
+    <use data-icon="tabler-outline/search" x="1158" y="272" width="32" height="32" fill="#D97757" stroke-width="2"/>
+  </g>
+
+  <g id="row-deliverables">
+    <circle cx="120" cy="372" r="20" fill="#D97757"/>
+    <text x="120" y="378" text-anchor="middle" font-family="&quot;Styrene A&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">3</text>
+    <rect x="170" y="336" width="1050" height="72" rx="10" fill="#F8FAFC"/>
+    <rect x="170" y="336" width="5" height="72" rx="2.5" fill="#D97757"/>
+    <text x="200" y="366" font-family="&quot;Styrene A&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="18" font-weight="700" fill="#191919">Enterprise deliverables</text>
+    <text x="200" y="392" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="14" fill="#64748B">Spreadsheets, decks, and documents produced as finished artifacts, not drafts.</text>
+    <use data-icon="tabler-outline/file-text" x="1158" y="356" width="32" height="32" fill="#D97757" stroke-width="2"/>
+  </g>
+
+  <g id="row-orchestration">
+    <circle cx="120" cy="456" r="20" fill="#D97757"/>
+    <text x="120" y="462" text-anchor="middle" font-family="&quot;Styrene A&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">4</text>
+    <rect x="170" y="420" width="1050" height="72" rx="10" fill="#F8FAFC"/>
+    <rect x="170" y="420" width="5" height="72" rx="2.5" fill="#D97757"/>
+    <text x="200" y="450" font-family="&quot;Styrene A&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="18" font-weight="700" fill="#191919">Agent orchestration</text>
+    <text x="200" y="476" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="14" fill="#64748B">Coordinator agents managing fleets of parallel sub-agents on independent workstreams.</text>
+    <use data-icon="tabler-outline/users-group" x="1158" y="440" width="32" height="32" fill="#D97757" stroke-width="2"/>
+  </g>
+
+  <g id="row-vision">
+    <circle cx="120" cy="540" r="20" fill="#D97757"/>
+    <text x="120" y="546" text-anchor="middle" font-family="&quot;Styrene A&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">5</text>
+    <rect x="170" y="504" width="1050" height="72" rx="10" fill="#F8FAFC"/>
+    <rect x="170" y="504" width="5" height="72" rx="2.5" fill="#D97757"/>
+    <text x="200" y="534" font-family="&quot;Styrene A&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="18" font-weight="700" fill="#191919">Vision-heavy workflows</text>
+    <text x="200" y="560" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="14" fill="#64748B">Degraded scans, screenshot-driven computer use, and pixel-accurate chart transcription.</text>
+    <use data-icon="tabler-outline/eye" x="1158" y="524" width="32" height="32" fill="#D97757" stroke-width="2"/>
+  </g>
+
+  <g id="row-review">
+    <circle cx="120" cy="624" r="20" fill="#D97757"/>
+    <text x="120" y="630" text-anchor="middle" font-family="&quot;Styrene A&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">6</text>
+    <rect x="170" y="588" width="1050" height="72" rx="10" fill="#F8FAFC"/>
+    <rect x="170" y="588" width="5" height="72" rx="2.5" fill="#D97757"/>
+    <text x="200" y="618" font-family="&quot;Styrene A&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="18" font-weight="700" fill="#191919">Code review &amp; debugging</text>
+    <text x="200" y="644" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="14" fill="#64748B">Higher recall and precision on real bugs — including intermittent flakes others declare fixed.</text>
+    <use data-icon="tabler-outline/check" x="1158" y="608" width="32" height="32" fill="#D97757" stroke-width="2"/>
+  </g>
+
+  <g id="footer">
+    <text x="80" y="700" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="11" fill="#94A3B8">Scientific research (drug design, genomics) runs via Mythos 5 under Project Glasswing trusted access</text>
+    <text x="1200" y="700" text-anchor="end" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="11" fill="#94A3B8">08</text>
+  </g>
+</svg>

@@ -1,0 +1,1 @@
+This is Claude Fable 5, Anthropic's most capable widely released model, and over the next ten minutes we'll cover what it is, what it's exceptional at, and where to put it to work. Fable 5 launched in June twenty twenty-six as the first model in the new Mythos class, built specifically for the most demanding reasoning and long-horizon agentic work.

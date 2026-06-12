@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <g id="background">
+    <rect width="1280" height="720" fill="#FFFFFF"/>
+  </g>
+
+  <g id="header">
+    <rect x="80" y="52" width="44" height="4" rx="2" fill="#D97757"/>
+    <text x="80" y="100" font-family="&quot;Styrene A&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="32" font-weight="700" fill="#191919">Breakthroughs, not increments</text>
+    <text x="80" y="130" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="14" font-weight="700" fill="#64748B" letter-spacing="2">05 · EARLY CUSTOMER SIGNALS FROM THE ACCESS PROGRAM</text>
+  </g>
+
+  <g id="card-stripe">
+    <rect x="80" y="162" width="560" height="240" rx="16" fill="#F8FAFC"/>
+    <rect x="98" y="180" width="524" height="204" rx="10" fill="#FFFFFF"/>
+    <use data-icon="simple-icons/stripe" x="126" y="204" width="30" height="30" fill="#191919"/>
+    <text x="170" y="226" font-family="&quot;Styrene A&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="19" font-weight="700" fill="#191919">Stripe</text>
+    <text x="126" y="276" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="15" fill="#191919">
+      <tspan x="126" dy="0">A <tspan font-weight="bold" fill="#D97757">50-million-line</tspan> Ruby migration completed</tspan>
+      <tspan x="126" dy="26">in <tspan font-weight="bold" fill="#D97757">one day</tspan> — &quot;months of work into days.&quot;</tspan>
+    </text>
+    <text x="126" y="358" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="12" font-weight="bold" fill="#94A3B8" letter-spacing="1">AUTONOMOUS MIGRATION AT PRODUCTION SCALE</text>
+  </g>
+
+  <g id="card-cursor">
+    <rect x="660" y="162" width="560" height="240" rx="16" fill="#F8FAFC"/>
+    <rect x="678" y="180" width="524" height="204" rx="10" fill="#FFFFFF"/>
+    <use data-icon="simple-icons/cursor" x="706" y="204" width="30" height="30" fill="#191919"/>
+    <text x="750" y="226" font-family="&quot;Styrene A&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="19" font-weight="700" fill="#191919">Cursor</text>
+    <text x="706" y="276" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="15" fill="#191919">
+      <tspan x="706" dy="0">&quot;Opened up a class of <tspan font-weight="bold" fill="#D97757">long-horizon problems</tspan></tspan>
+      <tspan x="706" dy="26">that were out of reach.&quot;</tspan>
+    </text>
+    <text x="706" y="358" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="12" font-weight="bold" fill="#94A3B8" letter-spacing="1">AGENTIC CODING IN THE IDE</text>
+  </g>
+
+  <g id="card-github">
+    <rect x="80" y="422" width="560" height="240" rx="16" fill="#F8FAFC"/>
+    <rect x="98" y="440" width="524" height="204" rx="10" fill="#FFFFFF"/>
+    <use data-icon="simple-icons/github" x="126" y="464" width="30" height="30" fill="#191919"/>
+    <text x="170" y="486" font-family="&quot;Styrene A&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="19" font-weight="700" fill="#191919">GitHub</text>
+    <text x="126" y="536" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="15" fill="#191919">
+      <tspan x="126" dy="0">&quot;<tspan font-weight="bold" fill="#D97757">Exceeded previous benchmarks</tspan>&quot; on</tspan>
+      <tspan x="126" dy="26">complex coding tasks.</tspan>
+    </text>
+    <text x="126" y="618" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="12" font-weight="bold" fill="#94A3B8" letter-spacing="1">COPILOT EVALUATION SUITE</text>
+  </g>
+
+  <g id="card-cognition">
+    <rect x="660" y="422" width="560" height="240" rx="16" fill="#F8FAFC"/>
+    <rect x="678" y="440" width="524" height="204" rx="10" fill="#FFFFFF"/>
+    <text x="706" y="486" font-family="&quot;Styrene A&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="19" font-weight="700" fill="#191919">Cognition</text>
+    <text x="706" y="536" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="15" fill="#191919">
+      <tspan x="706" dy="0">The <tspan font-weight="bold" fill="#D97757">highest-scoring model</tspan> on FrontierBench,</tspan>
+      <tspan x="706" dy="26">their hardest internal evaluation.</tspan>
+    </text>
+    <text x="706" y="618" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="12" font-weight="bold" fill="#94A3B8" letter-spacing="1">AUTONOMOUS SOFTWARE AGENT (DEVIN)</text>
+  </g>
+
+  <g id="footer">
+    <text x="80" y="692" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="11" fill="#94A3B8">Source: Anthropic launch announcement; early-access partner reports, June 2026</text>
+    <text x="1200" y="692" text-anchor="end" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="11" fill="#94A3B8">07</text>
+  </g>
+</svg>

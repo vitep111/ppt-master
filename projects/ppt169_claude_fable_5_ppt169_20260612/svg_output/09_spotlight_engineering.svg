@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <g id="background">
+    <rect width="1280" height="720" fill="#FFFFFF"/>
+  </g>
+
+  <g id="kicker">
+    <text x="80" y="118" font-family="&quot;Styrene A&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="14" font-weight="700" fill="#64748B" letter-spacing="4">06 · SPOTLIGHT — AUTONOMOUS ENGINEERING</text>
+    <text x="80" y="170" font-family="&quot;Styrene A&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="30" font-weight="700" fill="#191919">Long-horizon coding is the breakout use case</text>
+  </g>
+
+  <g id="hero-number">
+    <text x="76" y="330" font-family="&quot;Styrene A&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="88" font-weight="700" fill="#191919" letter-spacing="-2">50M lines <tspan fill="#D97757">· one day</tspan></text>
+    <text x="80" y="386" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="19" fill="#64748B">Stripe&apos;s Ruby migration, compressed from months of work to a single day.</text>
+  </g>
+
+  <g id="divider-rule">
+    <line x1="80" y1="448" x2="1200" y2="448" stroke="#E2E8F0" stroke-width="1.5"/>
+  </g>
+
+  <g id="practice-notes">
+    <use data-icon="tabler-outline/file-text" x="80" y="496" width="28" height="28" fill="#D97757" stroke-width="2"/>
+    <text x="80" y="556" font-family="&quot;Styrene A&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="16" font-weight="700" fill="#191919">Specify fully, up front</text>
+    <text x="80" y="584" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="14" fill="#64748B">
+      <tspan x="80" dy="0">Give the whole task in one well-specified</tspan>
+      <tspan x="80" dy="22">first turn — goal, constraints, done-criteria.</tspan>
+    </text>
+
+    <use data-icon="tabler-outline/gauge" x="470" y="496" width="28" height="28" fill="#D97757" stroke-width="2"/>
+    <text x="470" y="556" font-family="&quot;Styrene A&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="16" font-weight="700" fill="#191919">Run at high effort</text>
+    <text x="470" y="584" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="14" fill="#64748B">
+      <tspan x="470" dy="0">High or xhigh effort for long-horizon work —</tspan>
+      <tspan x="470" dy="22">deeper planning often lowers total cost.</tspan>
+    </text>
+
+    <use data-icon="tabler-outline/refresh" x="860" y="496" width="28" height="28" fill="#D97757" stroke-width="2"/>
+    <text x="860" y="556" font-family="&quot;Styrene A&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="16" font-weight="700" fill="#191919">Let it verify itself</text>
+    <text x="860" y="584" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="14" fill="#64748B">
+      <tspan x="860" dy="0">Have it build and run its own checking</tspan>
+      <tspan x="860" dy="22">harness as it goes, on a fixed cadence.</tspan>
+    </text>
+  </g>
+
+  <g id="footer">
+    <text x="80" y="692" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="11" fill="#94A3B8">Source: Stripe early-access report, Anthropic launch announcement, June 2026</text>
+    <text x="1200" y="692" text-anchor="end" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="11" fill="#94A3B8">09</text>
+  </g>
+</svg>

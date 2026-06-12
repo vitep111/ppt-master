@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <g id="background">
+    <rect width="1280" height="720" fill="#FFFFFF"/>
+  </g>
+
+  <g id="header">
+    <rect x="80" y="62" width="44" height="4" rx="2" fill="#D97757"/>
+    <text x="80" y="112" font-family="&quot;Styrene A&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="34" font-weight="700" fill="#191919">What we&apos;ll cover</text>
+    <text x="80" y="142" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="14" font-weight="700" fill="#64748B" letter-spacing="2">EIGHT STOPS — FROM WHAT IT IS TO HOW IT SHIPS SAFELY</text>
+  </g>
+
+  <g id="rule-left">
+    <line x1="112" y1="208" x2="112" y2="618" stroke="#D97757" stroke-width="3" stroke-linecap="round" stroke-opacity="0.35"/>
+  </g>
+  <g id="rule-right">
+    <line x1="692" y1="208" x2="692" y2="618" stroke="#D97757" stroke-width="3" stroke-linecap="round" stroke-opacity="0.35"/>
+  </g>
+
+  <g id="agenda-col-left">
+    <circle cx="112" cy="232" r="22" fill="#FFFFFF" stroke="#D97757" stroke-width="2.5"/>
+    <text x="112" y="238" text-anchor="middle" font-family="&quot;Styrene A&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="15" font-weight="700" fill="#D97757">01</text>
+    <text x="158" y="228" font-family="&quot;Styrene A&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="20" font-weight="700" fill="#191919">What is Claude Fable 5</text>
+    <text x="158" y="252" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="14" fill="#64748B">Positioning and the new Mythos class</text>
+
+    <circle cx="112" cy="342" r="22" fill="#FFFFFF" stroke="#D97757" stroke-width="2.5"/>
+    <text x="112" y="348" text-anchor="middle" font-family="&quot;Styrene A&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="15" font-weight="700" fill="#D97757">02</text>
+    <text x="158" y="338" font-family="&quot;Styrene A&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="20" font-weight="700" fill="#191919">The model family</text>
+    <text x="158" y="362" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="14" fill="#64748B">Where Fable 5 sits relative to Opus, Sonnet, Haiku</text>
+
+    <circle cx="112" cy="452" r="22" fill="#FFFFFF" stroke="#D97757" stroke-width="2.5"/>
+    <text x="112" y="458" text-anchor="middle" font-family="&quot;Styrene A&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="15" font-weight="700" fill="#D97757">03</text>
+    <text x="158" y="448" font-family="&quot;Styrene A&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="20" font-weight="700" fill="#191919">Specs at a glance</text>
+    <text x="158" y="472" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="14" fill="#64748B">Context, output, pricing, availability</text>
+
+    <circle cx="112" cy="562" r="22" fill="#FFFFFF" stroke="#D97757" stroke-width="2.5"/>
+    <text x="112" y="568" text-anchor="middle" font-family="&quot;Styrene A&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="15" font-weight="700" fill="#D97757">04</text>
+    <text x="158" y="558" font-family="&quot;Styrene A&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="20" font-weight="700" fill="#191919">Headline capabilities</text>
+    <text x="158" y="582" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="14" fill="#64748B">Six areas where the gains land</text>
+  </g>
+
+  <g id="agenda-col-right">
+    <circle cx="692" cy="232" r="22" fill="#FFFFFF" stroke="#D97757" stroke-width="2.5"/>
+    <text x="692" y="238" text-anchor="middle" font-family="&quot;Styrene A&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="15" font-weight="700" fill="#D97757">05</text>
+    <text x="738" y="228" font-family="&quot;Styrene A&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="20" font-weight="700" fill="#191919">Early customer signals</text>
+    <text x="738" y="252" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="14" fill="#64748B">Stripe, Cursor, GitHub, Cognition</text>
+
+    <circle cx="692" cy="342" r="22" fill="#FFFFFF" stroke="#D97757" stroke-width="2.5"/>
+    <text x="692" y="348" text-anchor="middle" font-family="&quot;Styrene A&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="15" font-weight="700" fill="#D97757">06</text>
+    <text x="738" y="338" font-family="&quot;Styrene A&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="20" font-weight="700" fill="#191919">Use cases</text>
+    <text x="738" y="362" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="14" fill="#64748B">Where to point it first, with two spotlights</text>
+
+    <circle cx="692" cy="452" r="22" fill="#FFFFFF" stroke="#D97757" stroke-width="2.5"/>
+    <text x="692" y="458" text-anchor="middle" font-family="&quot;Styrene A&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="15" font-weight="700" fill="#D97757">07</text>
+    <text x="738" y="448" font-family="&quot;Styrene A&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="20" font-weight="700" fill="#191919">Developer experience</text>
+    <text x="738" y="472" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="14" fill="#64748B">API behaviors to plan for</text>
+
+    <circle cx="692" cy="562" r="24" fill="#D97757"/>
+    <text x="692" y="568" text-anchor="middle" font-family="&quot;Styrene A&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="15" font-weight="700" fill="#FFFFFF">08</text>
+    <text x="738" y="558" font-family="&quot;Styrene A&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="20" font-weight="700" fill="#191919">Safety architecture</text>
+    <text x="738" y="582" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="14" fill="#64748B">How frontier capability ships responsibly</text>
+  </g>
+
+  <g id="footer">
+    <text x="80" y="692" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="11" fill="#94A3B8">Claude Fable 5 · Overview &amp; Use Cases</text>
+    <text x="1200" y="692" text-anchor="end" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="11" fill="#94A3B8">02</text>
+  </g>
+</svg>

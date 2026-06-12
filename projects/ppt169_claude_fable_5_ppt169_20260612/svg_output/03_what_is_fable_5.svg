@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <g id="background">
+    <rect width="1280" height="720" fill="#FFFFFF"/>
+  </g>
+
+  <g id="kicker">
+    <text x="80" y="130" font-family="&quot;Styrene A&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="14" font-weight="700" fill="#64748B" letter-spacing="4">01 · WHAT IS CLAUDE FABLE 5</text>
+  </g>
+
+  <g id="statement">
+    <text x="80" y="226" font-family="&quot;Styrene A&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="56" font-weight="700" fill="#191919" letter-spacing="-1">A new class <tspan fill="#D97757">above Opus</tspan></text>
+    <text x="80" y="284" font-family="&quot;Styrene A&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="26" font-weight="400" fill="#64748B">The first Mythos-class model — built for the most demanding</text>
+    <text x="80" y="320" font-family="&quot;Styrene A&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="26" font-weight="400" fill="#64748B">reasoning and long-horizon agentic work.</text>
+  </g>
+
+  <g id="divider-rule">
+    <rect x="80" y="368" width="64" height="4" rx="2" fill="#D97757"/>
+  </g>
+
+  <g id="body-prose">
+    <text x="80" y="430" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="19" fill="#191919">
+      <tspan x="80" dy="0">Launched <tspan font-weight="bold">June 9, 2026</tspan>, Fable 5 and its sibling Claude Mythos 5 share the same</tspan>
+      <tspan x="80" dy="32">underlying model: one frontier intelligence, two release postures.</tspan>
+    </text>
+    <text x="80" y="520" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="19" fill="#191919">
+      <tspan x="80" dy="0">Fable 5 is the <tspan font-weight="bold" fill="#D97757">generally available</tspan> release and carries additional safety measures for</tspan>
+      <tspan x="80" dy="32">dual-use capabilities. Mythos 5 ships without those measures, to approved</tspan>
+      <tspan x="80" dy="32">organizations only, through Project Glasswing.</tspan>
+    </text>
+  </g>
+
+  <g id="closing-line">
+    <text x="80" y="630" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="16" font-weight="bold" fill="#64748B">Anthropic&apos;s most capable widely released model — for work above what prior models could do at all.</text>
+  </g>
+
+  <g id="footer">
+    <text x="80" y="692" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="11" fill="#94A3B8">Claude Fable 5 · Overview &amp; Use Cases</text>
+    <text x="1200" y="692" text-anchor="end" font-family="&quot;Anthropic Sans&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="11" fill="#94A3B8">03</text>
+  </g>
+</svg>
