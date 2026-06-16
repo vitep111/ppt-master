@@ -14,6 +14,11 @@
 - text_secondary: #555555
 - text_tertiary: #888888
 - border: #E0E0E0
+- accent_yellow: #FFD700
+- accent_yellow_text: #5A3A00
+- accent_gold_arrow: #8B6900
+- cloud_gray: #CCCCCC
+- cloud_text: #333333
 
 ## typography
 - font_family: Arial, sans-serif
