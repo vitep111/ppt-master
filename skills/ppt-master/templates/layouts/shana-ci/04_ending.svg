@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <!-- bg_thankyou.jpeg: teal wave pattern top + bottom, white center -->
+  <image href="images/bg_thankyou.jpeg" x="0" y="0" width="1280" height="720" preserveAspectRatio="xMidYMid slice"/>
+
+  <!-- Top accent strip: teal -->
+  <rect x="0" y="0" width="1280" height="4" fill="#3BBF92"/>
+
+  <!-- ── LOGO LOCKUP: top-right, navy ─────────────────────────────────────── -->
+  <image href="logo_pttep.png"       x="860"  y="8" width="90" height="44" preserveAspectRatio="xMinYMid meet"/>
+  <line x1="956" y1="16" x2="956" y2="48" stroke="#D5D5D5" stroke-width="1"/>
+  <image href="logo_digitalx.png"    x="964"  y="8" width="90" height="44" preserveAspectRatio="xMinYMid meet"/>
+  <line x1="1060" y1="16" x2="1060" y2="48" stroke="#D5D5D5" stroke-width="1"/>
+  <image href="logo_shana_navy.png"  x="1068" y="8" width="168" height="44" preserveAspectRatio="xMinYMid meet"/>
+
+  <!-- ── CENTERED CONTENT BLOCK (x=200–1080, y=260–500) ────────────────────── -->
+  <!-- Closing title: navy, large, centered -->
+  <text x="640" y="358"
+        text-anchor="middle"
+        font-family="Calibri, 'Segoe UI', Arial, sans-serif"
+        font-size="56" font-weight="bold" fill="#1B1164">{{CLOSING_TITLE}}</text>
+
+  <!-- Teal accent underline: centered -->
+  <rect x="540" y="374" width="200" height="3" fill="#3BBF92"/>
+
+  <!-- Tagline: dark, medium, centered -->
+  <text x="640" y="422"
+        text-anchor="middle"
+        font-family="Calibri, 'Segoe UI', Arial, sans-serif"
+        font-size="20" fill="#1A1A2E">{{TAGLINE}}</text>
+
+  <!-- Contact / website line: cyan, centered -->
+  <text x="640" y="458"
+        text-anchor="middle"
+        font-family="Calibri, 'Segoe UI', Arial, sans-serif"
+        font-size="15" fill="#00AEEF">{{CONTACT}}</text>
+
+  <!-- ── FOOTER ─────────────────────────────────────────────────────────────── -->
+  <text x="640" y="708"
+        text-anchor="middle"
+        font-family="Calibri, 'Segoe UI', Arial, sans-serif"
+        font-size="8" font-style="italic" fill="#888888">
+    Confidential. Copyright © {{YEAR}}, PTTEP and Accenture. All rights reserved.
+  </text>
+</svg>

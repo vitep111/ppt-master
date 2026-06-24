@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <!-- bg_cover.jpeg: sky-blue glow top-left → white center → vivid cyan-blue right -->
+  <image href="images/bg_cover.jpeg" x="0" y="0" width="1280" height="720" preserveAspectRatio="xMidYMid slice"/>
+
+  <!-- Top accent strip: cyan -->
+  <rect x="0" y="0" width="1280" height="4" fill="#00AEEF"/>
+
+  <!-- ── LOGO LOCKUP: top-left, larger (PTTEP | DigitalX | SHANA navy) ─────── -->
+  <image href="logo_pttep.png"       x="40"  y="14" width="96" height="48" preserveAspectRatio="xMinYMid meet"/>
+  <line x1="142" y1="22" x2="142" y2="56" stroke="#1B1164" stroke-width="1.2" stroke-opacity="0.35"/>
+  <image href="logo_digitalx.png"    x="150" y="14" width="96" height="48" preserveAspectRatio="xMinYMid meet"/>
+  <line x1="252" y1="22" x2="252" y2="56" stroke="#1B1164" stroke-width="1.2" stroke-opacity="0.35"/>
+  <image href="logo_shana_navy.png"  x="260" y="14" width="120" height="48" preserveAspectRatio="xMinYMid meet"/>
+
+  <!-- ── TITLE BLOCK: left-center, x=60–720, y=240–510 ────────────────────── -->
+  <!-- Navy left accent bar -->
+  <rect x="60" y="248" width="5" height="132" fill="#1B1164"/>
+
+  <!-- Main title -->
+  <text x="82" y="318"
+        font-family="Calibri, 'Segoe UI', Arial, sans-serif"
+        font-size="42" font-weight="bold" fill="#1B1164"
+        letter-spacing="-0.4">{{TITLE}}</text>
+
+  <!-- Subtitle / workstream -->
+  <text x="82" y="366"
+        font-family="Calibri, 'Segoe UI', Arial, sans-serif"
+        font-size="24" font-weight="300" fill="#1B1164">{{SUBTITLE}}</text>
+
+  <!-- Cyan horizontal accent line -->
+  <rect x="82" y="384" width="380" height="2" fill="#00AEEF"/>
+
+  <!-- Phase / project tag (cyan) -->
+  <text x="82" y="412"
+        font-family="Calibri, 'Segoe UI', Arial, sans-serif"
+        font-size="15" fill="#00AEEF">{{PHASE}}</text>
+
+  <!-- Date -->
+  <text x="82" y="440"
+        font-family="Calibri, 'Segoe UI', Arial, sans-serif"
+        font-size="15" fill="#1A1A2E">{{DATE}}</text>
+
+  <!-- ── FOOTER ─────────────────────────────────────────────────────────────── -->
+  <text x="40" y="708"
+        font-family="Calibri, 'Segoe UI', Arial, sans-serif"
+        font-size="8" font-style="italic" fill="#888888">
+    Confidential. Copyright © {{YEAR}}, PTTEP and Accenture. All rights reserved.
+  </text>
+</svg>

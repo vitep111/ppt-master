@@ -1,4 +1,10 @@
 {
+  "shana-ci": {
+    "summary": "SHANA project official slide structure — cover, section divider, content, and ending templates with POTX-sourced background images. Pair with brands/shana-ci/ for full SHANA identity.",
+    "canvas_format": "ppt169",
+    "page_count": 4,
+    "page_types": ["cover", "divider", "content", "ending"]
+  },
   "academic_defense": {
     "summary": "Thesis defense, academic presentations, research progress reports, grant applications.",
     "canvas_format": "ppt169",

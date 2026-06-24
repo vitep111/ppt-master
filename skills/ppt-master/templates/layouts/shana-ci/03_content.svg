@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <!--
+    Background variants (Executor swaps as needed for visual variety across a long deck):
+      TL (default): images/bg_content_tl.jpeg   — teal wave dots top-left
+      TR:           images/bg_content_tr.jpeg   — subtle dots all edges
+      BL:           images/bg_content_bl.jpeg   — wave dots bottom-left
+      BR:           images/bg_content_br.jpeg   — wave dots bottom-right
+      STD:          images/bg_content.jpeg      — standard fallback
+      ALT:          images/bg_content_alt.jpeg  — alternate (high-density data pages)
+  -->
+  <image href="images/bg_content_tl.jpeg" x="0" y="0" width="1280" height="720" preserveAspectRatio="xMidYMid slice"/>
+
+  <!-- Top accent strip: navy -->
+  <rect x="0" y="0" width="1280" height="3" fill="#1B1164"/>
+
+  <!-- ── HEADER (y=3–72) ────────────────────────────────────────────────────── -->
+  <!-- Section tag pill: small cyan rounded label above page title -->
+  <rect x="40" y="8" width="80" height="22" rx="3" fill="#00AEEF"/>
+  <text x="48" y="23"
+        font-family="Calibri, 'Segoe UI', Arial, sans-serif"
+        font-size="11" font-weight="bold" fill="#FFFFFF">{{SECTION_TAG}}</text>
+
+  <!-- Page title: navy bold -->
+  <text x="40" y="58"
+        font-family="Calibri, 'Segoe UI', Arial, sans-serif"
+        font-size="28" font-weight="bold" fill="#1B1164">{{PAGE_TITLE}}</text>
+
+  <!-- Logo lockup: top-right, navy (PTTEP | DigitalX | SHANA) -->
+  <image href="logo_pttep.png"       x="842"  y="6" width="86" height="44" preserveAspectRatio="xMinYMid meet"/>
+  <line x1="934" y1="14" x2="934" y2="46" stroke="#D5D5D5" stroke-width="1"/>
+  <image href="logo_digitalx.png"    x="942"  y="6" width="86" height="44" preserveAspectRatio="xMinYMid meet"/>
+  <line x1="1034" y1="14" x2="1034" y2="46" stroke="#D5D5D5" stroke-width="1"/>
+  <image href="logo_shana_navy.png"  x="1042" y="6" width="196" height="44" preserveAspectRatio="xMinYMid meet"/>
+
+  <!-- Header separator: 2 px cyan line -->
+  <rect x="0" y="72" width="1280" height="2" fill="#00AEEF"/>
+
+  <!-- ── CONTENT AREA (y=80–690) ───────────────────────────────────────────── -->
+  <!--
+    Executor fills this zone freely.
+    Safe area: x=40–1240, y=80–690 (616 px tall, 1200 px wide).
+    Common patterns:
+      - Full-width table:   x=40 y=90 w=1200
+      - Two-column layout:  left x=40–600, right x=620–1240
+      - KPI card row:       four cards @ w=280, gap=16, starting x=40
+      - Single large chart: x=40 y=90 w=1200 h=560
+  -->
+  <!-- Structural placeholder — remove in final output -->
+  <rect x="40" y="84" width="1200" height="598" fill="#F0F9FF" fill-opacity="0.25" rx="2"/>
+
+  <!-- ── FOOTER ─────────────────────────────────────────────────────────────── -->
+  <rect x="0" y="692" width="1280" height="1" fill="#D5D5D5"/>
+  <text x="40" y="710"
+        font-family="Calibri, 'Segoe UI', Arial, sans-serif"
+        font-size="8" font-style="italic" fill="#888888">
+    Confidential. Copyright © {{YEAR}}, PTTEP and Accenture. All rights reserved.
+  </text>
+  <text x="1240" y="710" text-anchor="end"
+        font-family="Calibri, 'Segoe UI', Arial, sans-serif"
+        font-size="9" fill="#888888">{{PAGE_NUM}}</text>
+</svg>
