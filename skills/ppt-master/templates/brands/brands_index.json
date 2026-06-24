@@ -1,4 +1,9 @@
 {
+  "shana-ci": {
+    "summary": "SHANA project official corporate identity — PTTEP | DigitalX | SHANA co-branded presentations",
+    "keywords": ["shana", "pttep", "digitalx", "corporate", "energy"],
+    "primary_color": "#1B1164"
+  },
   "anthropic": {
     "summary": "Anthropic brand identity — AI/LLM tech talks, developer conferences, technical training, product launches",
     "primary_color": "#D97757"
