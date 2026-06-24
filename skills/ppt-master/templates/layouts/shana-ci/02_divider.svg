@@ -1,77 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
-  <!-- bg_divider.png: green-cyan gradient + organic wave dots (left) → solid navy-blue (right) -->
-  <image href="images/bg_divider.png" x="0" y="0" width="1280" height="720" preserveAspectRatio="xMidYMid slice"/>
+  <!-- Section-divider background: green-cyan dot-wave left band → white right -->
+  <image href="images/bg_divider.jpeg" x="0" y="0" width="1280" height="720" preserveAspectRatio="xMidYMid slice"/>
+  <!-- Alternate (full saturated, white text): swap to images/bg_section.png -->
 
-  <!-- Light navy tint on left zone to ensure white text reads clearly -->
-  <rect x="0" y="0" width="660" height="720" fill="#1B1164" fill-opacity="0.10"/>
+  <!-- ── LOGO LOCKUP: top-left, navy (PTTEP | DigitalX | SHANA navy) ─────────── -->
+  <image href="logo_pttep.png"      x="0"   y="0" width="154" height="40" preserveAspectRatio="xMinYMid meet"/>
+  <image href="logo_digitalx.png"   x="193" y="2" width="108" height="48" preserveAspectRatio="xMinYMid meet"/>
+  <image href="logo_shana_navy.png" x="312" y="5" width="167" height="32" preserveAspectRatio="xMinYMid meet"/>
 
-  <!-- Top accent strip: teal -->
-  <rect x="0" y="0" width="1280" height="4" fill="#3BBF92"/>
+  <!-- ── GIANT SECTION NUMBER (watermark, box x=120 y=178 w=846 h=230) ──────── -->
+  <text x="120" y="372"
+        font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+        font-size="230" font-weight="bold" fill="#1B1164" fill-opacity="0.12">{{SECTION_NUM}}</text>
 
-  <!-- ── LOGO LOCKUP: top-right (white variants on dark background) ─────────── -->
-  <image href="logo_pttep.png"       x="860"  y="8" width="90" height="44" preserveAspectRatio="xMinYMid meet"/>
-  <line x1="956" y1="16" x2="956" y2="48" stroke="#FFFFFF" stroke-width="1" stroke-opacity="0.45"/>
-  <image href="logo_digitalx.png"    x="964"  y="8" width="90" height="44" preserveAspectRatio="xMinYMid meet"/>
-  <line x1="1060" y1="16" x2="1060" y2="48" stroke="#FFFFFF" stroke-width="1" stroke-opacity="0.45"/>
-  <image href="logo_shana_white.png" x="1068" y="8" width="132" height="44" preserveAspectRatio="xMinYMid meet"/>
+  <!-- ── SECTION TITLE (box x=120 y=408, 48pt navy) ───────────────────────────── -->
+  <text x="120" y="468"
+        font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+        font-size="48" font-weight="bold" fill="#1B1164">{{SECTION_TITLE}}</text>
 
-  <!-- ── DECORATIVE SECTION NUMBER: right zone (solid navy area) ───────────── -->
-  <text x="1060" y="510"
-        text-anchor="middle"
-        font-family="Calibri, 'Segoe UI', Arial, sans-serif"
-        font-size="320" font-weight="bold"
-        fill="#FFFFFF" fill-opacity="0.06">{{SECTION_NUM}}</text>
-
-  <!-- ── LEFT CONTENT BLOCK ────────────────────────────────────────────────── -->
-  <!-- Section label: small, bold, teal, letter-spaced -->
-  <text x="80" y="268"
-        font-family="Calibri, 'Segoe UI', Arial, sans-serif"
-        font-size="12" font-weight="bold" fill="#3BBF92"
-        letter-spacing="4">{{SECTION_LABEL}}</text>
-
-  <!-- Section title: large, bold, white -->
-  <text x="80" y="338"
-        font-family="Calibri, 'Segoe UI', Arial, sans-serif"
-        font-size="44" font-weight="bold" fill="#FFFFFF">{{SECTION_TITLE}}</text>
-
-  <!-- Teal underline beneath title -->
-  <rect x="80" y="356" width="300" height="3" fill="#3BBF92"/>
-
-  <!-- ── AGENDA ITEMS LIST ──────────────────────────────────────────────────── -->
-  <!-- Item 1 — ACTIVE: left bar highlight + bold -->
-  <rect x="80" y="387" width="4" height="30" fill="#00AEEF"/>
-  <text x="96" y="408"
-        font-family="Calibri, 'Segoe UI', Arial, sans-serif"
-        font-size="16" font-weight="bold" fill="#FFFFFF">{{AGENDA_ITEM_1}}</text>
-
-  <!-- Item 2 — inactive (dimmed) -->
-  <text x="96" y="450"
-        font-family="Calibri, 'Segoe UI', Arial, sans-serif"
-        font-size="16" fill="#FFFFFF" fill-opacity="0.65">{{AGENDA_ITEM_2}}</text>
-
-  <!-- Item 3 — inactive -->
-  <text x="96" y="490"
-        font-family="Calibri, 'Segoe UI', Arial, sans-serif"
-        font-size="16" fill="#FFFFFF" fill-opacity="0.65">{{AGENDA_ITEM_3}}</text>
-
-  <!-- Item 4 — inactive (optional; remove if not needed) -->
-  <text x="96" y="530"
-        font-family="Calibri, 'Segoe UI', Arial, sans-serif"
-        font-size="16" fill="#FFFFFF" fill-opacity="0.65">{{AGENDA_ITEM_4}}</text>
-
-  <!-- Item 5 — inactive (optional) -->
-  <text x="96" y="570"
-        font-family="Calibri, 'Segoe UI', Arial, sans-serif"
-        font-size="16" fill="#FFFFFF" fill-opacity="0.65">{{AGENDA_ITEM_5}}</text>
+  <!-- Teal accent rule under title -->
+  <rect x="124" y="490" width="320" height="4" fill="#3BBF92"/>
 
   <!-- ── FOOTER ─────────────────────────────────────────────────────────────── -->
-  <text x="40" y="708"
-        font-family="Calibri, 'Segoe UI', Arial, sans-serif"
-        font-size="8" font-style="italic" fill="#FFFFFF" fill-opacity="0.50">
-    Confidential. Copyright © {{YEAR}}, PTTEP and Accenture. All rights reserved.
-  </text>
-  <text x="1240" y="708" text-anchor="end"
-        font-family="Calibri, 'Segoe UI', Arial, sans-serif"
-        font-size="9" fill="#FFFFFF" fill-opacity="0.50">{{PAGE_NUM}}</text>
+  <text x="640" y="706" text-anchor="middle"
+        font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+        font-size="8" fill="#000000">Copyright © {{YEAR}} Accenture. All rights reserved. Accenture Confidential Information</text>
+  <text x="1215" y="697" text-anchor="end"
+        font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+        font-size="10" fill="#000000">{{PAGE_NUM}}</text>
 </svg>

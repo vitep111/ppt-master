@@ -1,115 +1,126 @@
 ---
 brand_id: shana-ci
 kind: brand
-summary: "SHANA project official corporate identity — PTTEP | DigitalX | SHANA co-branded presentations"
-keywords: [shana, pttep, digitalx, corporate, energy]
+summary: "SHANA project official corporate identity — PTTEP | DigitalX | SHANA co-branded presentations (delivered by Accenture)"
+keywords: [shana, pttep, digitalx, accenture, corporate]
 primary_color: "#1B1164"
 ---
 
 # SHANA Corporate Identity Brand Specification
 
 > Identity-only preset. No SVG page roster — pages are composed freely under these constraints.
-> Extracted from the official SHANA Presentation Template (`_SHANA__Presentation_Template_for_ACN_2026_V1_20260219.potx`).
+> All values extracted directly from the official SHANA deck theme XML (`theme1.xml`) and slide layouts. Provenance `fact` = read from theme/layout XML; `approx` = visual estimate.
 
 ## I. Brand Overview
 
 | Property | Value |
 |---|---|
 | Brand Name | SHANA — PTTEP \| DigitalX \| SHANA |
-| Use Cases | Project status decks, workstream deliverables, stakeholder presentations, internal reports |
-| Tone | Formal, confidential, professional |
+| Delivered by | Accenture |
+| Use Cases | Change impact analysis, workstream deliverables, milestone sign-off decks, PMO reviews, stakeholder briefs |
+| Tone | Formal, confidential, structured, conclusion-first |
 
 ## II. Color Scheme
 
-| Role | HEX | Provenance |
-|---|---|---|
-| primary | #1B1164 | fact — Navy; headings, titles, strong text |
-| secondary | #00AEEF | fact — Cyan; accent elements, table headers, section tags |
-| accent | #3BBF92 | fact — Teal; secondary accents, divider elements |
-| text | #1A1A2E | fact — Off-Black; body text |
-| bg | #F0F9FF | fact — Light Sky; default content background |
-| supporting_white | #FFFFFF | fact — text on dark backgrounds |
-| supporting_grey | #D5D5D5 | fact — borders, captions, separators |
-| supporting_footer | #888888 | fact — footer text |
-| supporting_dark_blue | #0066CC | fact — section divider gradient end |
-| supporting_light_grey | #F5F5F5 | fact — alternating table rows |
+The official theme palette (`theme1.xml` `<a:clrScheme>`):
 
-### Gradient Recipes
+| Role | HEX | Provenance | Notes |
+|---|---|---|---|
+| primary (accent1) | #1B1164 | fact | Navy — all titles, headings, strong text, logo |
+| accent (accent3) | #00AEEF | fact | Cyan — table headers, section tags, accent bars, links |
+| positive (accent5) | #3BBF92 | fact | Teal/green — secondary accents, dividers, "to-be" highlights |
+| mid-blue (accent2) | #2A6FA0 | fact | Steel blue — secondary data series, sub-accents |
+| lavender (accent4) | #D1CCF4 | fact | Pale violet — soft fills, chart tints, callout backgrounds |
+| amber (accent6) | #F4A261 | fact | Warm orange — alerts, "high impact" emphasis |
+| text (dk1) | #000000 | fact | Body text (often softened to #1A1A2E) |
+| muted (dk2) | #5E5E5E | fact | Secondary text, captions |
+| border (lt2) | #D5D5D5 | fact | Borders, separators, table gridlines |
+| bg (lt1) | #FFFFFF | fact | Page background (white center of all bg images) |
+
+### Supplementary colors seen in slide content
+
+| HEX | Usage |
+|---|---|
+| #00B0F0 | Bright blue — process/system callouts |
+| #C00000 | Dark red — risks, removed/decommissioned systems |
+| #92D050 | Green — added/new systems, positive deltas |
+| #002060 | Deep navy — high-contrast labels |
+| #E7F8FF | Pale cyan — light card fills |
+
+### Gradient Recipes (observed in backgrounds & logo)
 
 | Name | Definition |
 |---|---|
-| Cover / Title background | left `#E8F6FF` → right `#00AEEF` |
-| Section Divider | left `#00AEEF` → right `#0066CC` |
-| Teal accent | `#3BBF92` → `#00AEEF` |
+| SHANA logo (color) | left `#1B7FE0` (blue) → right `#3BBF92` (green) |
+| Section / cover background | green `#3BBF92` → cyan `#00AEEF` → white |
+| Divider band | left saturated `#00AEEF`/`#3BBF92` dot-wave → right white |
 
 ## III. Typography
 
-| Role | Family | Weight | Size Range | Color |
+Theme fonts (`theme1.xml` `<a:fontScheme>`):
+
+| Role | Family | Weight | Size | Color |
 |---|---|---|---|---|
-| cover title | Calibri | Bold | 40pt | #1B1164 |
-| title | Calibri | Bold | 30–44pt | #1B1164 |
-| subtitle | Calibri | Light | 24–28pt | #1B1164 |
-| section tag | Calibri | Regular | 11pt | #00AEEF |
-| body | Calibri | Regular | 14–16pt | #1A1A2E |
-| table header | Calibri | Bold | 12–13pt | #FFFFFF on #00AEEF fill |
-| table body | Calibri | Regular | 10–13pt | #1A1A2E |
-| footer | Calibri | Italic | 8–10pt | #888888 |
+| major (headings) | Helvetica Neue | Bold | cover 42pt · section 48pt · content title 28pt | #1B1164 |
+| minor (body) | Helvetica | Regular | 14–16pt | #000000 / #1A1A2E |
+| sub-heading | Helvetica Neue | Bold | 14pt | #1B1164 |
+| KPI figure | Helvetica Neue | Bold | 32pt | #1B1164 |
+| footer | Helvetica Neue | Regular | 8pt | #000000 |
+| page number | Helvetica Neue | Regular | 10pt | #000000 |
+
+> The deck declares **Helvetica Neue / Helvetica**. On Windows/Office these fall back to Arial. Recommended SVG font stack: `"Helvetica Neue", Helvetica, Arial, sans-serif`. Embed Helvetica Neue into the PPTX for exact fidelity, otherwise accept the Arial fallback.
 
 ## IV. Logo
 
-### Primary Logo Lockup
-- Order: **PTTEP | DigitalX | SHANA** — never change this order
-- File (color): `./logo.png` — SHANA color logo; use as primary
-- File (navy): `./logo_navy.png` — navy variant; use on light backgrounds
-- File (white): `./logo_white.png` — white variant; use on dark/color backgrounds
-- File (PTTEP): `./logo_pttep.png` / `./logo_pttep_hq.png`
-- File (DigitalX): `./logo_digitalx.png` / `./logo_digitalx_hq.png`
+### Lockup order — always **PTTEP | DigitalX | SHANA** (left to right), top-left of every slide. Never reorder.
 
-### Logo Placement Rules
-
-| Slide type | Position | Variant |
+| File | Form | Usage |
 |---|---|---|
-| Title / Cover | Top-left, larger | color or navy |
-| Content slides | Top-right, standard | navy |
-| Section dividers | Top-right, standard | white (on dark bg) |
-| Thank You | Centered or top | white |
+| `./logo_pttep.png` | PTTEP flame mark + navy wordmark | Always — leftmost |
+| `./logo_digitalx.png` | "DigitalX" cyan/navy + green-blue X mark | Always — center |
+| `./logo_shana_gradient.png` | SHANA wordmark, blue→green gradient | **Cover only** — rightmost |
+| `./logo_shana_navy.png` | SHANA wordmark, solid navy #1B1164 | **All non-cover slides** — rightmost |
+| `./logo_shana_navy_flat.png` | SHANA navy, smaller flat version | Tight/small placements |
 
-- Usage: every-page
+### Placement (from layout XML, 1280×720 canvas)
 
-### Fallback (when image unavailable)
-Text lockup: "PTTEP  |  DigitalX  |  SHANA" — SHANA portion in bold italic teal (#3BBF92)
+| Slide | PTTEP | DigitalX | SHANA |
+|---|---|---|---|
+| Cover (larger) | x=0 y=2 · 255×66 | x=319 y=0 · 193×85 | gradient x=510 y=12 · 254×48 |
+| Content / Divider / Section | x=0 y=0 · 154×40 | x=193 y=2 · 108×48 | navy x=312 y=5 · 167×32 |
+
+- Logo lockup sits **top-left** on all slide types
+- Clearspace: keep ≥ 0.4× mark height clear; never overlap title text
+- Never recolor the logos; use the navy SHANA on light/content backgrounds and the gradient SHANA only on the white cover
 
 ## V. Voice & Tone
 
 - Formality: formal
-- Person: we
+- Person: we / passive
 - Emoji: forbidden
-- Abbreviations: common-abbrev-allowed
-- Footer: `Confidential. Copyright © [YEAR], PTTEP and Accenture. All rights reserved.` — auto on every slide
-- Page numbers: bottom-right on all content slides
+- Abbreviations: common-abbrev-allowed (SAP Concur, CIA, TE, R&R, etc.)
+- Footer (exact, every slide): `Copyright © {{YEAR}} Accenture. All rights reserved. Accenture Confidential Information`
+- Page numbers: bottom-right on all content/divider slides
 
 ## VI. Icon Style
 
-- Preference: linear
-- Color: navy #1B1164 or cyan #00AEEF depending on context
+- Preference: filled / duotone (the deck uses 512×512 filled pictographic icons for impact areas — People, Process, Tech, Data, Document — and small tick marks for change actions)
+- Icon accent colors drawn from the palette (navy / cyan / teal)
 
 ## VII. Visual Assets
 
-- Images: `./images/` — official background images extracted from POTX template
+- Logos: this directory (`logo_*.png`)
+- Backgrounds: `./images/`
 
-### Background Image Catalog
+### Background Catalog (real, theme-sourced)
 
-| File | Slide Type | Description |
+| File | Slide type | Description |
 |---|---|---|
-| `images/bg_cover.jpeg` | Title / Cover | Green top-left glow → white → bright blue right |
-| `images/bg_divider.png` | Agenda / Section Divider | Green-to-cyan left + wave dots → solid blue right |
-| `images/bg_content_tl.jpeg` | Content (default) | White center, teal wave dots top-left |
-| `images/bg_content_tr.jpeg` | Content (alt) | White center, subtle teal dots all edges |
-| `images/bg_content_bl.jpeg` | Content (alt) | White center, wave dots bottom-left |
-| `images/bg_content_br.jpeg` | Content (alt) | White center, wave dots bottom-right |
-| `images/bg_content.jpeg` | Content (standard) | Standard content background |
-| `images/bg_content_alt.jpeg` | Content (alternate) | Alternate content background |
-| `images/bg_thankyou.jpeg` | Thank You / End | Full teal wave top + bottom, white center |
+| `images/bg_cover.jpeg` | Cover | Green glow top-left → white center → bright cyan right, wave dots bottom |
+| `images/bg_content.jpeg` | Content | White center, teal/cyan wave dots top-left + bottom-right corners |
+| `images/bg_section.png` | Section title / TOC | Full cyan-blue gradient + green wave dots left (for white text) |
+| `images/bg_divider.jpeg` | Section divider | Green-cyan dot-wave left band → white right |
+| `images/bg_thankyou.jpeg` | Thank-you / closing | Cyan wave dots top + bottom, white center band |
 
 ### Usage Rule
-Always use the real background JPEG/PNG — never approximate with flat color or shapes.
+Always place the real background image full-bleed (`xMidYMid slice`); never approximate with flat color or shapes.

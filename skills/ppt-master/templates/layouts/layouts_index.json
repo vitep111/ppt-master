@@ -1,6 +1,6 @@
 {
   "shana-ci": {
-    "summary": "SHANA project official slide structure — cover, section divider, content, and ending templates with POTX-sourced background images. Pair with brands/shana-ci/ for full SHANA identity.",
+    "summary": "SHANA project official slide structure — cover, section divider, content, and ending templates rebuilt from the real SHANA deck (theme XML + slide layouts). Pair with brands/shana-ci/ for full SHANA identity.",
     "canvas_format": "ppt169",
     "page_count": 4,
     "page_types": ["cover", "divider", "content", "ending"]
