@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <!-- Section-divider background: green-cyan dot-wave left band → white right -->
+  <image href="images/bg_divider.jpeg" x="0" y="0" width="1280" height="720" preserveAspectRatio="xMidYMid slice"/>
+  <!-- Alternate (full saturated, white text): swap to images/bg_section.png -->
+
+  <!-- ── LOGO LOCKUP: top-left, navy (PTTEP | DigitalX | SHANA navy) ─────────── -->
+  <image href="logo_pttep.png"      x="0"   y="0" width="154" height="40" preserveAspectRatio="xMinYMid meet"/>
+  <image href="logo_digitalx.png"   x="193" y="2" width="108" height="48" preserveAspectRatio="xMinYMid meet"/>
+  <image href="logo_shana_navy.png" x="312" y="5" width="167" height="32" preserveAspectRatio="xMinYMid meet"/>
+
+  <!-- ── GIANT SECTION NUMBER (watermark, box x=120 y=178 w=846 h=230) ──────── -->
+  <text x="120" y="372"
+        font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+        font-size="230" font-weight="bold" fill="#1B1164" fill-opacity="0.12">{{SECTION_NUM}}</text>
+
+  <!-- ── SECTION TITLE (box x=120 y=408, 48pt navy) ───────────────────────────── -->
+  <text x="120" y="468"
+        font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+        font-size="48" font-weight="bold" fill="#1B1164">{{SECTION_TITLE}}</text>
+
+  <!-- Teal accent rule under title -->
+  <rect x="124" y="490" width="320" height="4" fill="#3BBF92"/>
+
+  <!-- ── FOOTER ─────────────────────────────────────────────────────────────── -->
+  <text x="640" y="706" text-anchor="middle"
+        font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+        font-size="8" fill="#000000">Copyright © {{YEAR}} Accenture. All rights reserved. Accenture Confidential Information</text>
+  <text x="1215" y="697" text-anchor="end"
+        font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+        font-size="10" fill="#000000">{{PAGE_NUM}}</text>
+</svg>

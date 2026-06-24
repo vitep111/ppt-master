@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+
+  <!-- Background -->
+  <image href="../templates/images/bg_content.jpeg" x="0" y="0" width="1280" height="720" preserveAspectRatio="xMidYMid slice"/>
+
+  <!-- ── LOGO LOCKUP ─────────────────────────────────────────────────── -->
+  <g id="logo-area">
+    <image href="../templates/logo_pttep.png"      x="0"   y="0" width="154" height="40" preserveAspectRatio="xMinYMid meet"/>
+    <image href="../templates/logo_digitalx.png"   x="193" y="2" width="108" height="48" preserveAspectRatio="xMinYMid meet"/>
+    <image href="../templates/logo_shana_navy.png" x="312" y="5" width="167" height="32" preserveAspectRatio="xMinYMid meet"/>
+  </g>
+
+  <!-- ── PAGE TITLE ─────────────────────────────────────────────────── -->
+  <g id="page-header">
+    <text x="60" y="86"
+          font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+          font-size="28" font-weight="bold" fill="#1B1164">Key Actions &amp; Timeline</text>
+    <rect x="60" y="100" width="1160" height="2" fill="#00AEEF"/>
+  </g>
+
+  <!-- ── TIMELINE ────────────────────────────────────────────────────── -->
+  <g id="timeline">
+
+    <!-- Spine line -->
+    <line x1="100" y1="360" x2="1220" y2="360" stroke="#D5D5D5" stroke-width="2"/>
+
+    <!-- ── Phase 1: Jul 2026 — Foundation ── -->
+    <g id="phase-1">
+      <!-- Phase node -->
+      <circle cx="193" cy="360" r="18" fill="#1B1164"/>
+      <text x="193" y="365" text-anchor="middle"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="12" font-weight="bold" fill="#FFFFFF">1</text>
+
+      <!-- Connector up -->
+      <line x1="193" y1="342" x2="193" y2="200" stroke="#1B1164" stroke-width="1" stroke-dasharray="4 3"/>
+
+      <!-- Card above -->
+      <rect x="73" y="128" width="240" height="172" rx="6" fill="#FFFFFF" fill-opacity="0.92"/>
+      <rect x="73" y="128" width="240" height="6" rx="6" fill="#1B1164"/>
+
+      <text x="193" y="158" text-anchor="middle"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="13" font-weight="bold" fill="#1B1164">Jul 2026</text>
+      <text x="193" y="176" text-anchor="middle"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="14" font-weight="bold" fill="#1B1164">Foundation</text>
+      <line x1="93" y1="185" x2="293" y2="185" stroke="#D5D5D5" stroke-width="1"/>
+      <text x="93" y="204"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="12" fill="#5E5E5E">&#8226; Kick-off &amp; governance</text>
+      <text x="93" y="222"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="12" fill="#5E5E5E">&#8226; Stakeholder mapping</text>
+      <text x="93" y="240"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="12" fill="#5E5E5E">&#8226; Data migration assessment</text>
+      <text x="93" y="258"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="12" fill="#5E5E5E">&#8226; Training needs analysis</text>
+      <text x="93" y="280"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="12" fill="#5E5E5E">&#8226; SOP gap inventory</text>
+
+      <!-- Month label below spine -->
+      <text x="193" y="398" text-anchor="middle"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="13" font-weight="bold" fill="#1B1164">Jul</text>
+    </g>
+
+    <!-- ── Phase 2: Aug 2026 — Concur Go-Live ── -->
+    <g id="phase-2">
+      <circle cx="473" cy="360" r="18" fill="#00AEEF"/>
+      <text x="473" y="365" text-anchor="middle"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="12" font-weight="bold" fill="#FFFFFF">2</text>
+
+      <!-- Connector down -->
+      <line x1="473" y1="378" x2="473" y2="520" stroke="#00AEEF" stroke-width="1" stroke-dasharray="4 3"/>
+
+      <!-- Card below -->
+      <rect x="353" y="422" width="240" height="172" rx="6" fill="#FFFFFF" fill-opacity="0.92"/>
+      <rect x="353" y="422" width="240" height="6" rx="6" fill="#00AEEF"/>
+
+      <text x="473" y="452" text-anchor="middle"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="13" font-weight="bold" fill="#1B1164">Aug 2026</text>
+      <text x="473" y="470" text-anchor="middle"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="14" font-weight="bold" fill="#1B1164">Concur Go-Live</text>
+      <line x1="373" y1="479" x2="573" y2="479" stroke="#D5D5D5" stroke-width="1"/>
+      <text x="373" y="498"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="12" fill="#5E5E5E">&#8226; T&amp;E Concur launch (all-staff)</text>
+      <text x="373" y="516"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="12" fill="#5E5E5E">&#8226; E-Payment decommission</text>
+      <text x="373" y="534"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="12" fill="#5E5E5E">&#8226; Excel tracker retired</text>
+      <text x="373" y="552"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="12" fill="#5E5E5E">&#8226; Wave 1 user training</text>
+      <text x="373" y="574"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="12" fill="#5E5E5E">&#8226; Hypercare support starts</text>
+
+      <text x="473" y="398" text-anchor="middle"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="13" font-weight="bold" fill="#00AEEF">Aug</text>
+    </g>
+
+    <!-- ── Phase 3: Sep 2026 — UAT &amp; Parallel Run ── -->
+    <g id="phase-3">
+      <circle cx="753" cy="360" r="18" fill="#F4A261"/>
+      <text x="753" y="365" text-anchor="middle"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="12" font-weight="bold" fill="#FFFFFF">3</text>
+
+      <!-- Connector up -->
+      <line x1="753" y1="342" x2="753" y2="200" stroke="#F4A261" stroke-width="1" stroke-dasharray="4 3"/>
+
+      <!-- Card above -->
+      <rect x="633" y="128" width="240" height="172" rx="6" fill="#FFFFFF" fill-opacity="0.92"/>
+      <rect x="633" y="128" width="240" height="6" rx="6" fill="#F4A261"/>
+
+      <text x="753" y="158" text-anchor="middle"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="13" font-weight="bold" fill="#1B1164">Sep 2026</text>
+      <text x="753" y="176" text-anchor="middle"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="14" font-weight="bold" fill="#1B1164">UAT &amp; Parallel Run</text>
+      <line x1="653" y1="185" x2="853" y2="185" stroke="#D5D5D5" stroke-width="1"/>
+      <text x="653" y="204"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="12" fill="#5E5E5E">&#8226; S/4HANA Finance UAT</text>
+      <text x="653" y="222"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="12" fill="#5E5E5E">&#8226; ECC parallel run (Finance)</text>
+      <text x="653" y="240"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="12" fill="#5E5E5E">&#8226; Wave 2 training (Finance)</text>
+      <text x="653" y="258"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="12" fill="#5E5E5E">&#8226; Cutover planning</text>
+      <text x="653" y="280"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="12" fill="#5E5E5E">&#8226; Defect resolution</text>
+
+      <text x="753" y="398" text-anchor="middle"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="13" font-weight="bold" fill="#F4A261">Sep</text>
+    </g>
+
+    <!-- ── Phase 4: Oct 2026 — S/4HANA Go-Live ── -->
+    <g id="phase-4">
+      <circle cx="1127" cy="360" r="22" fill="#3BBF92"/>
+      <use data-icon="tabler-filled/check" x="1113" y="346" width="28" height="28" fill="#FFFFFF"/>
+
+      <!-- Connector down -->
+      <line x1="1127" y1="382" x2="1127" y2="520" stroke="#3BBF92" stroke-width="1" stroke-dasharray="4 3"/>
+
+      <!-- Card below -->
+      <rect x="1007" y="422" width="220" height="172" rx="6" fill="#1B1164"/>
+      <rect x="1007" y="422" width="220" height="6" rx="6" fill="#3BBF92"/>
+
+      <text x="1117" y="452" text-anchor="middle"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="13" font-weight="bold" fill="#FFFFFF">Oct 2026</text>
+      <text x="1117" y="470" text-anchor="middle"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="14" font-weight="bold" fill="#3BBF92">S/4HANA Go-Live</text>
+      <line x1="1027" y1="479" x2="1207" y2="479" stroke="#3BBF92" stroke-width="1" stroke-opacity="0.4"/>
+      <text x="1027" y="498"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="12" fill="#FFFFFF">&#8226; ECC decommission</text>
+      <text x="1027" y="516"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="12" fill="#FFFFFF">&#8226; Finance full cutover</text>
+      <text x="1027" y="534"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="12" fill="#FFFFFF">&#8226; S/4HANA + Concur live</text>
+      <text x="1027" y="552"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="12" fill="#FFFFFF">&#8226; Stabilisation review</text>
+      <text x="1027" y="574"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="12" fill="#3BBF92" font-weight="bold">&#8226; Project close-out</text>
+
+      <text x="1127" y="398" text-anchor="middle"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="13" font-weight="bold" fill="#3BBF92">Oct</text>
+    </g>
+
+    <!-- Today marker -->
+    <circle cx="100" cy="360" r="8" fill="#00AEEF"/>
+    <text x="100" y="388" text-anchor="middle"
+          font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+          font-size="11" fill="#00AEEF" font-weight="bold">Now</text>
+
+  </g>
+
+  <!-- ── FOOTER ─────────────────────────────────────────────────────────── -->
+  <g id="footer">
+    <text x="778" y="697"
+          font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+          font-size="8" fill="#000000">Copyright &#169; 2026 Accenture. All rights reserved. Accenture Confidential Information</text>
+    <text x="1215" y="697" text-anchor="end"
+          font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+          font-size="10" fill="#000000">8</text>
+  </g>
+
+</svg>

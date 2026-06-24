@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+
+  <!-- Background -->
+  <image href="../templates/images/bg_content.jpeg" x="0" y="0" width="1280" height="720" preserveAspectRatio="xMidYMid slice"/>
+
+  <!-- ── LOGO LOCKUP ─────────────────────────────────────────────────── -->
+  <g id="logo-area">
+    <image href="../templates/logo_pttep.png"      x="0"   y="0" width="154" height="40" preserveAspectRatio="xMinYMid meet"/>
+    <image href="../templates/logo_digitalx.png"   x="193" y="2" width="108" height="48" preserveAspectRatio="xMinYMid meet"/>
+    <image href="../templates/logo_shana_navy.png" x="312" y="5" width="167" height="32" preserveAspectRatio="xMinYMid meet"/>
+  </g>
+
+  <!-- ── PAGE TITLE ─────────────────────────────────────────────────── -->
+  <g id="page-header">
+    <text x="60" y="86"
+          font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+          font-size="28" font-weight="bold" fill="#1B1164">As-Is System Landscape</text>
+    <rect x="60" y="100" width="1160" height="2" fill="#00AEEF"/>
+  </g>
+
+  <!-- ── CONTENT: System table ────────────────────────────────────────── -->
+  <g id="system-table">
+
+    <!-- Table header row -->
+    <rect x="60" y="120" width="1160" height="40" fill="#00AEEF"/>
+    <text x="80" y="146"
+          font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+          font-size="14" font-weight="bold" fill="#FFFFFF">System / Platform</text>
+    <text x="380" y="146"
+          font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+          font-size="14" font-weight="bold" fill="#FFFFFF">Module / Scope</text>
+    <text x="780" y="146"
+          font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+          font-size="14" font-weight="bold" fill="#FFFFFF">Owner / Users</text>
+    <text x="1020" y="146"
+          font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+          font-size="14" font-weight="bold" fill="#FFFFFF">Change Status</text>
+
+    <!-- Column dividers (header) -->
+    <line x1="370" y1="120" x2="370" y2="160" stroke="#FFFFFF" stroke-width="1" stroke-opacity="0.4"/>
+    <line x1="770" y1="120" x2="770" y2="160" stroke="#FFFFFF" stroke-width="1" stroke-opacity="0.4"/>
+    <line x1="1010" y1="120" x2="1010" y2="160" stroke="#FFFFFF" stroke-width="1" stroke-opacity="0.4"/>
+
+    <!-- Row 1: SAP ECC — being replaced (amber) -->
+    <rect x="60" y="160" width="1160" height="110" fill="#FFFFFF"/>
+    <rect x="60" y="270" width="1160" height="1" fill="#D5D5D5"/>
+
+    <text x="80" y="200"
+          font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+          font-size="16" font-weight="bold" fill="#1B1164">SAP ECC 6.0</text>
+    <text x="80" y="222"
+          font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+          font-size="13" fill="#5E5E5E">Core ERP</text>
+
+    <text x="380" y="195"
+          font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+          font-size="14" fill="#000000">Core Finance GL, AP, AR</text>
+    <text x="380" y="218"
+          font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+          font-size="13" fill="#5E5E5E">Month-end close, cost centre</text>
+    <text x="380" y="239"
+          font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+          font-size="13" fill="#5E5E5E">coding, AP reconciliation</text>
+
+    <text x="780" y="200"
+          font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+          font-size="14" fill="#000000">Finance dept &#183; 140 users</text>
+
+    <!-- Amber badge: Being Replaced -->
+    <rect x="1020" y="175" width="180" height="30" rx="4" fill="#F4A261" fill-opacity="0.15"/>
+    <rect x="1020" y="175" width="5" height="30" fill="#F4A261"/>
+    <text x="1036" y="196"
+          font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+          font-size="13" font-weight="bold" fill="#F4A261">Being Replaced</text>
+
+    <!-- Row 2: E-Payment — decommissioned (red) -->
+    <rect x="60" y="271" width="1160" height="110" fill="#F5F5F5"/>
+    <rect x="60" y="381" width="1160" height="1" fill="#D5D5D5"/>
+
+    <text x="80" y="311"
+          font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+          font-size="16" font-weight="bold" fill="#1B1164">E-Payment Portal</text>
+    <text x="80" y="333"
+          font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+          font-size="13" fill="#5E5E5E">Legacy T&amp;E</text>
+
+    <text x="380" y="306"
+          font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+          font-size="14" fill="#000000">Travel claims, expense reimbursement</text>
+    <text x="380" y="329"
+          font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+          font-size="13" fill="#5E5E5E">Manual approval workflows</text>
+
+    <text x="780" y="311"
+          font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+          font-size="14" fill="#000000">All staff &#183; 340 requestors</text>
+
+    <!-- Red badge: Decommissioned -->
+    <rect x="1020" y="286" width="180" height="30" rx="4" fill="#C00000" fill-opacity="0.1"/>
+    <rect x="1020" y="286" width="5" height="30" fill="#C00000"/>
+    <text x="1036" y="307"
+          font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+          font-size="13" font-weight="bold" fill="#C00000">Decommissioned</text>
+
+    <!-- Row 3: Concur Legacy — upgraded (teal) -->
+    <rect x="60" y="382" width="1160" height="110" fill="#FFFFFF"/>
+    <rect x="60" y="492" width="1160" height="1" fill="#D5D5D5"/>
+
+    <text x="80" y="422"
+          font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+          font-size="16" font-weight="bold" fill="#1B1164">Concur Legacy</text>
+    <text x="80" y="444"
+          font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+          font-size="13" fill="#5E5E5E">Partial rollout</text>
+
+    <text x="380" y="417"
+          font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+          font-size="14" fill="#000000">T&amp;E booking — limited to HQ</text>
+    <text x="380" y="440"
+          font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+          font-size="13" fill="#5E5E5E">No mobile or field-team access</text>
+
+    <text x="780" y="422"
+          font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+          font-size="14" fill="#000000">HQ Finance &#183; 60 users</text>
+
+    <!-- Teal badge: Upgraded -->
+    <rect x="1020" y="397" width="180" height="30" rx="4" fill="#3BBF92" fill-opacity="0.15"/>
+    <rect x="1020" y="397" width="5" height="30" fill="#3BBF92"/>
+    <text x="1036" y="418"
+          font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+          font-size="13" font-weight="bold" fill="#3BBF92">Upgraded</text>
+
+    <!-- Row 4: Manual Excel — decommissioned (red) -->
+    <rect x="60" y="493" width="1160" height="110" fill="#F5F5F5"/>
+
+    <text x="80" y="533"
+          font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+          font-size="16" font-weight="bold" fill="#1B1164">Manual Excel Tracker</text>
+    <text x="80" y="555"
+          font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+          font-size="13" fill="#5E5E5E">Shadow tool</text>
+
+    <text x="380" y="528"
+          font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+          font-size="14" fill="#000000">Budget tracking, cost allocation</text>
+    <text x="380" y="551"
+          font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+          font-size="13" fill="#5E5E5E">No integration with ECC; manual updates</text>
+
+    <text x="780" y="533"
+          font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+          font-size="14" fill="#000000">CO team &#183; 20 users</text>
+
+    <!-- Red badge: Decommissioned -->
+    <rect x="1020" y="508" width="180" height="30" rx="4" fill="#C00000" fill-opacity="0.1"/>
+    <rect x="1020" y="508" width="5" height="30" fill="#C00000"/>
+    <text x="1036" y="529"
+          font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+          font-size="13" font-weight="bold" fill="#C00000">Decommissioned</text>
+
+    <!-- Table outer border -->
+    <rect x="60" y="120" width="1160" height="483" fill="none" stroke="#D5D5D5" stroke-width="1"/>
+    <!-- Column dividers (body) -->
+    <line x1="370" y1="160" x2="370" y2="603" stroke="#D5D5D5" stroke-width="1"/>
+    <line x1="770" y1="160" x2="770" y2="603" stroke="#D5D5D5" stroke-width="1"/>
+    <line x1="1010" y1="160" x2="1010" y2="603" stroke="#D5D5D5" stroke-width="1"/>
+
+  </g>
+
+  <!-- ── LEGEND ────────────────────────────────────────────────────────── -->
+  <g id="legend">
+    <rect x="60" y="618" width="14" height="14" fill="#F4A261"/>
+    <text x="82" y="630"
+          font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+          font-size="12" fill="#5E5E5E">Being Replaced</text>
+    <rect x="220" y="618" width="14" height="14" fill="#C00000"/>
+    <text x="242" y="630"
+          font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+          font-size="12" fill="#5E5E5E">Decommissioned</text>
+    <rect x="400" y="618" width="14" height="14" fill="#3BBF92"/>
+    <text x="422" y="630"
+          font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+          font-size="12" fill="#5E5E5E">Upgraded</text>
+  </g>
+
+  <!-- ── FOOTER ─────────────────────────────────────────────────────────── -->
+  <g id="footer">
+    <text x="778" y="697"
+          font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+          font-size="8" fill="#000000">Copyright &#169; 2026 Accenture. All rights reserved. Accenture Confidential Information</text>
+    <text x="1215" y="697" text-anchor="end"
+          font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+          font-size="10" fill="#000000">3</text>
+  </g>
+
+</svg>

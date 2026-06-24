@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <!-- Cover background: green glow top-left → white center → bright cyan right, wave dots bottom -->
+  <image href="images/bg_cover.jpeg" x="0" y="0" width="1280" height="720" preserveAspectRatio="xMidYMid slice"/>
+
+  <!-- ── LOGO LOCKUP: top-left, LARGER (PTTEP | DigitalX | SHANA gradient) ──── -->
+  <!-- positions from layout1.xml -->
+  <image href="logo_pttep.png"          x="0"   y="2"  width="255" height="66" preserveAspectRatio="xMinYMid meet"/>
+  <image href="logo_digitalx.png"       x="319" y="0"  width="193" height="85" preserveAspectRatio="xMinYMid meet"/>
+  <image href="logo_shana_gradient.png" x="510" y="12" width="254" height="48" preserveAspectRatio="xMinYMid meet"/>
+
+  <!-- ── TITLE BLOCK (placeholder box x=138 y=268 w=1078) ──────────────────── -->
+  <text x="138" y="318"
+        font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+        font-size="42" font-weight="bold" fill="#1B1164">{{TITLE}}</text>
+
+  <!-- Subtitle (optional) -->
+  <text x="138" y="372"
+        font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+        font-size="22" font-weight="normal" fill="#2A6FA0">{{SUBTITLE}}</text>
+
+  <!-- Teal accent rule -->
+  <rect x="138" y="392" width="360" height="3" fill="#3BBF92"/>
+
+  <!-- Date (placeholder box x=138 y=555) -->
+  <text x="138" y="572"
+        font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+        font-size="18" fill="#000000">{{DATE}}</text>
+
+  <!-- ── FOOTER ─────────────────────────────────────────────────────────────── -->
+  <text x="640" y="706" text-anchor="middle"
+        font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+        font-size="8" fill="#000000">Copyright © {{YEAR}} Accenture. All rights reserved. Accenture Confidential Information</text>
+</svg>

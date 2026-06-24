@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+
+  <!-- Background -->
+  <image href="../templates/images/bg_content.jpeg" x="0" y="0" width="1280" height="720" preserveAspectRatio="xMidYMid slice"/>
+
+  <!-- ── LOGO LOCKUP ─────────────────────────────────────────────────── -->
+  <g id="logo-area">
+    <image href="../templates/logo_pttep.png"      x="0"   y="0" width="154" height="40" preserveAspectRatio="xMinYMid meet"/>
+    <image href="../templates/logo_digitalx.png"   x="193" y="2" width="108" height="48" preserveAspectRatio="xMinYMid meet"/>
+    <image href="../templates/logo_shana_navy.png" x="312" y="5" width="167" height="32" preserveAspectRatio="xMinYMid meet"/>
+  </g>
+
+  <!-- ── PAGE TITLE ─────────────────────────────────────────────────── -->
+  <g id="page-header">
+    <text x="60" y="86"
+          font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+          font-size="28" font-weight="bold" fill="#1B1164">Impact Area Assessment</text>
+    <rect x="60" y="100" width="1160" height="2" fill="#00AEEF"/>
+  </g>
+
+  <!-- ── ICON GRID: 5 impact areas ─────────────────────────────────── -->
+  <g id="impact-grid">
+
+    <!-- Cell width: (1160 - 4*10) / 5 = 224; gap 10; start x=60 -->
+    <!-- Card 1: People — High impact -->
+    <g id="card-people">
+      <rect x="60" y="120" width="224" height="530" rx="6" fill="#FFFFFF" fill-opacity="0.92"/>
+      <rect x="60" y="120" width="224" height="6" rx="6" fill="#F4A261"/>
+      <!-- Icon placeholder -->
+      <use data-icon="tabler-filled/user" x="148" y="165" width="48" height="48" fill="#1B1164"/>
+      <!-- Category label -->
+      <text x="172" y="238" text-anchor="middle"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="18" font-weight="bold" fill="#1B1164">People</text>
+      <!-- Severity badge -->
+      <rect x="111" y="250" width="122" height="26" rx="13" fill="#F4A261" fill-opacity="0.18"/>
+      <text x="172" y="268" text-anchor="middle"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="12" font-weight="bold" fill="#F4A261">HIGH IMPACT</text>
+      <!-- Divider -->
+      <line x1="80" y1="288" x2="264" y2="288" stroke="#D5D5D5" stroke-width="1"/>
+      <!-- Details -->
+      <text x="80" y="314"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="13" fill="#5E5E5E">480 users affected</text>
+      <text x="80" y="338"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="13" fill="#5E5E5E">Role changes across</text>
+      <text x="80" y="358"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="13" fill="#5E5E5E">Finance &amp; T&amp;E teams</text>
+      <text x="80" y="390"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="13" fill="#5E5E5E">New approval hierarchy</text>
+      <text x="80" y="410"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="13" fill="#5E5E5E">required in S/4HANA</text>
+      <text x="80" y="442"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="13" fill="#5E5E5E">Training est. 16 hrs</text>
+      <text x="80" y="462"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="13" fill="#5E5E5E">per user cohort</text>
+    </g>
+
+    <!-- Card 2: Process — High impact -->
+    <g id="card-process">
+      <rect x="294" y="120" width="224" height="530" rx="6" fill="#FFFFFF" fill-opacity="0.92"/>
+      <rect x="294" y="120" width="224" height="6" rx="6" fill="#F4A261"/>
+      <!-- Icon placeholder -->
+      <use data-icon="tabler-filled/settings" x="382" y="165" width="48" height="48" fill="#1B1164"/>
+      <!-- Category label -->
+      <text x="406" y="238" text-anchor="middle"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="18" font-weight="bold" fill="#1B1164">Process</text>
+      <!-- Severity badge -->
+      <rect x="345" y="250" width="122" height="26" rx="13" fill="#F4A261" fill-opacity="0.18"/>
+      <text x="406" y="268" text-anchor="middle"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="12" font-weight="bold" fill="#F4A261">HIGH IMPACT</text>
+      <!-- Divider -->
+      <line x1="314" y1="288" x2="498" y2="288" stroke="#D5D5D5" stroke-width="1"/>
+      <!-- Details -->
+      <text x="314" y="314"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="13" fill="#5E5E5E">15 processes revised</text>
+      <text x="314" y="338"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="13" fill="#5E5E5E">Manual steps replaced</text>
+      <text x="314" y="358"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="13" fill="#5E5E5E">by automated workflow</text>
+      <text x="314" y="390"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="13" fill="#5E5E5E">Month-end close cycle</text>
+      <text x="314" y="410"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="13" fill="#5E5E5E">reduced 3 days</text>
+    </g>
+
+    <!-- Card 3: Technology — Medium impact -->
+    <g id="card-technology">
+      <rect x="528" y="120" width="224" height="530" rx="6" fill="#FFFFFF" fill-opacity="0.92"/>
+      <rect x="528" y="120" width="224" height="6" rx="6" fill="#00AEEF"/>
+      <!-- Icon placeholder -->
+      <use data-icon="tabler-filled/device-desktop" x="616" y="165" width="48" height="48" fill="#1B1164"/>
+      <!-- Category label -->
+      <text x="640" y="238" text-anchor="middle"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="18" font-weight="bold" fill="#1B1164">Technology</text>
+      <!-- Severity badge -->
+      <rect x="579" y="250" width="122" height="26" rx="13" fill="#00AEEF" fill-opacity="0.15"/>
+      <text x="640" y="268" text-anchor="middle"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="12" font-weight="bold" fill="#00AEEF">MED IMPACT</text>
+      <!-- Divider -->
+      <line x1="548" y1="288" x2="732" y2="288" stroke="#D5D5D5" stroke-width="1"/>
+      <!-- Details -->
+      <text x="548" y="314"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="13" fill="#5E5E5E">3 systems retired</text>
+      <text x="548" y="338"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="13" fill="#5E5E5E">S/4HANA + Concur</text>
+      <text x="548" y="358"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="13" fill="#5E5E5E">new tech stack</text>
+      <text x="548" y="390"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="13" fill="#5E5E5E">API integration with</text>
+      <text x="548" y="410"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="13" fill="#5E5E5E">PTTEP ERP backbone</text>
+    </g>
+
+    <!-- Card 4: Data — Medium impact -->
+    <g id="card-data">
+      <rect x="762" y="120" width="224" height="530" rx="6" fill="#FFFFFF" fill-opacity="0.92"/>
+      <rect x="762" y="120" width="224" height="6" rx="6" fill="#00AEEF"/>
+      <!-- Icon placeholder -->
+      <use data-icon="tabler-filled/database" x="850" y="165" width="48" height="48" fill="#1B1164"/>
+      <!-- Category label -->
+      <text x="874" y="238" text-anchor="middle"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="18" font-weight="bold" fill="#1B1164">Data</text>
+      <!-- Severity badge -->
+      <rect x="813" y="250" width="122" height="26" rx="13" fill="#00AEEF" fill-opacity="0.15"/>
+      <text x="874" y="268" text-anchor="middle"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="12" font-weight="bold" fill="#00AEEF">MED IMPACT</text>
+      <!-- Divider -->
+      <line x1="782" y1="288" x2="966" y2="288" stroke="#D5D5D5" stroke-width="1"/>
+      <!-- Details -->
+      <text x="782" y="314"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="13" fill="#5E5E5E">5-yr history migration</text>
+      <text x="782" y="338"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="13" fill="#5E5E5E">Chart of Accounts</text>
+      <text x="782" y="358"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="13" fill="#5E5E5E">mapping required</text>
+      <text x="782" y="390"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="13" fill="#5E5E5E">Vendor master data</text>
+      <text x="782" y="410"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="13" fill="#5E5E5E">cleanse: 4,200 records</text>
+    </g>
+
+    <!-- Card 5: Document — Low impact -->
+    <g id="card-document">
+      <rect x="996" y="120" width="224" height="530" rx="6" fill="#FFFFFF" fill-opacity="0.92"/>
+      <rect x="996" y="120" width="224" height="6" rx="6" fill="#3BBF92"/>
+      <!-- Icon placeholder -->
+      <use data-icon="tabler-filled/file-description" x="1084" y="165" width="48" height="48" fill="#1B1164"/>
+      <!-- Category label -->
+      <text x="1108" y="238" text-anchor="middle"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="18" font-weight="bold" fill="#1B1164">Document</text>
+      <!-- Severity badge -->
+      <rect x="1047" y="250" width="122" height="26" rx="13" fill="#3BBF92" fill-opacity="0.15"/>
+      <text x="1108" y="268" text-anchor="middle"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="12" font-weight="bold" fill="#3BBF92">LOW IMPACT</text>
+      <!-- Divider -->
+      <line x1="1016" y1="288" x2="1200" y2="288" stroke="#D5D5D5" stroke-width="1"/>
+      <!-- Details -->
+      <text x="1016" y="314"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="13" fill="#5E5E5E">SOP updates: 12 docs</text>
+      <text x="1016" y="338"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="13" fill="#5E5E5E">New user guides for</text>
+      <text x="1016" y="358"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="13" fill="#5E5E5E">Concur &amp; S/4HANA</text>
+      <text x="1016" y="390"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="13" fill="#5E5E5E">Policy refresh aligned</text>
+      <text x="1016" y="410"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="13" fill="#5E5E5E">to PTTEP standards</text>
+    </g>
+
+  </g>
+
+  <!-- ── LEGEND ────────────────────────────────────────────────────────── -->
+  <g id="legend">
+    <rect x="60"  y="662" width="14" height="14" fill="#F4A261"/>
+    <text x="82"  y="674"
+          font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+          font-size="12" fill="#5E5E5E">High Impact</text>
+    <rect x="200" y="662" width="14" height="14" fill="#00AEEF"/>
+    <text x="222" y="674"
+          font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+          font-size="12" fill="#5E5E5E">Medium Impact</text>
+    <rect x="370" y="662" width="14" height="14" fill="#3BBF92"/>
+    <text x="392" y="674"
+          font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+          font-size="12" fill="#5E5E5E">Low Impact</text>
+  </g>
+
+  <!-- ── FOOTER ─────────────────────────────────────────────────────────── -->
+  <g id="footer">
+    <text x="778" y="697"
+          font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+          font-size="8" fill="#000000">Copyright &#169; 2026 Accenture. All rights reserved. Accenture Confidential Information</text>
+    <text x="1215" y="697" text-anchor="end"
+          font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+          font-size="10" fill="#000000">5</text>
+  </g>
+
+</svg>

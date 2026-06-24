@@ -1,0 +1,1 @@
+We begin by establishing where we are today. The current-state section maps the existing systems and processes that are in scope for change.

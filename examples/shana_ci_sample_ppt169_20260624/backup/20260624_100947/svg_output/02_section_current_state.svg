@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+
+  <!-- Background -->
+  <image href="../templates/images/bg_divider.jpeg" x="0" y="0" width="1280" height="720" preserveAspectRatio="xMidYMid slice"/>
+
+  <!-- ── LOGO LOCKUP: top-left, compact, navy ──────────────────────────── -->
+  <g id="logo-area">
+    <image href="../templates/logo_pttep.png"      x="0"   y="0" width="154" height="40" preserveAspectRatio="xMinYMid meet"/>
+    <image href="../templates/logo_digitalx.png"   x="193" y="2" width="108" height="48" preserveAspectRatio="xMinYMid meet"/>
+    <image href="../templates/logo_shana_navy.png" x="312" y="5" width="167" height="32" preserveAspectRatio="xMinYMid meet"/>
+  </g>
+
+  <!-- ── WATERMARK SECTION NUMBER ─────────────────────────────────────── -->
+  <g id="section-watermark">
+    <text x="120" y="390"
+          font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+          font-size="230" font-weight="bold" fill="#1B1164" fill-opacity="0.12">01</text>
+  </g>
+
+  <!-- ── SECTION TITLE ─────────────────────────────────────────────────── -->
+  <g id="section-title">
+    <text x="120" y="468"
+          font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+          font-size="48" font-weight="bold" fill="#1B1164">Current State Overview</text>
+    <!-- Teal underline -->
+    <rect x="120" y="480" width="560" height="4" fill="#3BBF92"/>
+  </g>
+
+  <!-- ── PAGE NUMBER ───────────────────────────────────────────────────── -->
+  <g id="pagenumber">
+    <text x="1215" y="697" text-anchor="end"
+          font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+          font-size="10" fill="#000000">2</text>
+  </g>
+
+</svg>

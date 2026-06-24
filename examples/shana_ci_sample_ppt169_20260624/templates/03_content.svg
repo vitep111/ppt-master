@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <!-- Content background: white center, teal/cyan wave dots top-left + bottom-right corners -->
+  <image href="images/bg_content.jpeg" x="0" y="0" width="1280" height="720" preserveAspectRatio="xMidYMid slice"/>
+
+  <!-- ── LOGO LOCKUP: top-left, navy (PTTEP | DigitalX | SHANA navy) ─────────── -->
+  <image href="logo_pttep.png"      x="0"   y="0" width="154" height="40" preserveAspectRatio="xMinYMid meet"/>
+  <image href="logo_digitalx.png"   x="193" y="2" width="108" height="48" preserveAspectRatio="xMinYMid meet"/>
+  <image href="logo_shana_navy.png" x="312" y="5" width="167" height="32" preserveAspectRatio="xMinYMid meet"/>
+
+  <!-- ── PAGE TITLE (box x=60 y=51, 28pt navy) ─────────────────────────────── -->
+  <text x="60" y="86"
+        font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+        font-size="28" font-weight="bold" fill="#1B1164">{{PAGE_TITLE}}</text>
+
+  <!-- Optional cyan topic/section tag above or beside title -->
+  <!-- <rect x="60" y="24" width="90" height="22" fill="#00AEEF"/>
+       <text x="68" y="39" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#FFFFFF">{{SECTION_TAG}}</text> -->
+
+  <!-- Title underline (cyan hairline) -->
+  <rect x="60" y="100" width="1160" height="2" fill="#00AEEF"/>
+
+  <!-- ── CONTENT AREA (y≈112–668) ──────────────────────────────────────────────
+       Executor fills freely. Safe area x=60–1220, y=112–668.
+       Common patterns from the source deck:
+         - As-is / To-be two-column split (left x=60–630, right x=650–1220)
+         - 3-up stat columns separated by vertical #D5D5D5 lines
+         - Impact-area icon grid (People / Process / Tech / Data / Document)
+         - CI table: cyan header (#00AEEF), alternating #FFFFFF / #F5F5F5 rows
+  -->
+  <rect x="60" y="112" width="1160" height="556" fill="#FFFFFF" fill-opacity="0.0"/>
+
+  <!-- ── FOOTER (copyright right-center, page number far right — from layout) ─── -->
+  <text x="778" y="697"
+        font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+        font-size="8" fill="#000000">Copyright © {{YEAR}} Accenture. All rights reserved. Accenture Confidential Information</text>
+  <text x="1215" y="697" text-anchor="end"
+        font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+        font-size="10" fill="#000000">{{PAGE_NUM}}</text>
+</svg>

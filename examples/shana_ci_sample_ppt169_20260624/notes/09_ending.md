@@ -1,0 +1,1 @@
+Thank you for your time. For any questions on the scope of change impacts or the training and communication schedule, please contact the Finance Transformation Lead at shana-ci@pttep.com. This analysis has been prepared under the SHANA CI methodology by Accenture DigitalX.

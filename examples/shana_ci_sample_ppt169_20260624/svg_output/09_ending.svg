@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+
+  <!-- Background -->
+  <image href="../templates/images/bg_thankyou.jpeg" x="0" y="0" width="1280" height="720" preserveAspectRatio="xMidYMid slice"/>
+
+  <!-- ── LOGO LOCKUP: larger, cover-style ─────────────────────────────── -->
+  <g id="logo-area">
+    <image href="../templates/logo_pttep.png"          x="0"   y="2"  width="255" height="66" preserveAspectRatio="xMinYMid meet"/>
+    <image href="../templates/logo_digitalx.png"       x="319" y="0"  width="193" height="85" preserveAspectRatio="xMinYMid meet"/>
+    <image href="../templates/logo_shana_gradient.png" x="510" y="12" width="254" height="48" preserveAspectRatio="xMinYMid meet"/>
+  </g>
+
+  <!-- ── THANK YOU BLOCK ───────────────────────────────────────────────── -->
+  <g id="thank-you-block">
+    <!-- Cyan accent bar -->
+    <rect x="120" y="260" width="6" height="160" fill="#00AEEF"/>
+
+    <!-- Main headline -->
+    <text x="148" y="320"
+          font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+          font-size="56" font-weight="bold" fill="#1B1164">Thank You</text>
+
+    <!-- Tagline -->
+    <text x="148" y="370"
+          font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+          font-size="22" fill="#2A6FA0">Driving confident change for Finance &amp; T&amp;E transformation</text>
+
+    <!-- Teal rule -->
+    <rect x="148" y="388" width="560" height="3" fill="#3BBF92"/>
+
+    <!-- Powered-by note -->
+    <text x="148" y="418"
+          font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+          font-size="16" fill="#1B1164">Powered by SHANA CI&#160;&#160;|&#160;&#160;Accenture DigitalX</text>
+  </g>
+
+  <!-- ── CONTACT BOX ───────────────────────────────────────────────────── -->
+  <g id="contact">
+    <rect x="148" y="450" width="500" height="120" rx="6" fill="#1B1164" fill-opacity="0.08"/>
+    <rect x="148" y="450" width="4" height="120" fill="#00AEEF"/>
+
+    <text x="168" y="480"
+          font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+          font-size="13" font-weight="bold" fill="#1B1164">Project Contact</text>
+    <text x="168" y="502"
+          font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+          font-size="14" fill="#5E5E5E">Finance Transformation Lead&#160;&#160;|&#160;&#160;PTTEP DigitalX</text>
+    <text x="168" y="524"
+          font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+          font-size="14" fill="#5E5E5E">shana-ci@pttep.com</text>
+    <text x="168" y="550"
+          font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+          font-size="13" fill="#2A6FA0">For questions on change impact scope or training schedule</text>
+  </g>
+
+  <!-- ── FOOTER ─────────────────────────────────────────────────────────── -->
+  <g id="cover-footer">
+    <text x="640" y="706" text-anchor="middle"
+          font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+          font-size="8" fill="#000000">Copyright &#169; 2026 Accenture. All rights reserved. Accenture Confidential Information</text>
+  </g>
+
+</svg>

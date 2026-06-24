@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+
+  <!-- Background -->
+  <image href="../templates/images/bg_content.jpeg" x="0" y="0" width="1280" height="720" preserveAspectRatio="xMidYMid slice"/>
+
+  <!-- ── LOGO LOCKUP ─────────────────────────────────────────────────── -->
+  <g id="logo-area">
+    <image href="../templates/logo_pttep.png"      x="0"   y="0" width="154" height="40" preserveAspectRatio="xMinYMid meet"/>
+    <image href="../templates/logo_digitalx.png"   x="193" y="2" width="108" height="48" preserveAspectRatio="xMinYMid meet"/>
+    <image href="../templates/logo_shana_navy.png" x="312" y="5" width="167" height="32" preserveAspectRatio="xMinYMid meet"/>
+  </g>
+
+  <!-- ── PAGE TITLE ─────────────────────────────────────────────────── -->
+  <g id="page-header">
+    <text x="60" y="86"
+          font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+          font-size="28" font-weight="bold" fill="#1B1164">To-Be System Landscape</text>
+    <rect x="60" y="100" width="1160" height="2" fill="#00AEEF"/>
+  </g>
+
+  <!-- ── COLUMN HEADERS ─────────────────────────────────────────────── -->
+  <g id="column-headers">
+    <!-- As-Is column header -->
+    <rect x="60" y="112" width="530" height="36" fill="#5E5E5E" fill-opacity="0.15"/>
+    <text x="325" y="136" text-anchor="middle"
+          font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+          font-size="14" font-weight="bold" fill="#5E5E5E">AS-IS</text>
+
+    <!-- Arrow column header (centre) -->
+    <rect x="598" y="112" width="84" height="36" fill="#1B1164" fill-opacity="0.08"/>
+
+    <!-- To-Be column header -->
+    <rect x="690" y="112" width="530" height="36" fill="#1B1164" fill-opacity="0.12"/>
+    <text x="955" y="136" text-anchor="middle"
+          font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+          font-size="14" font-weight="bold" fill="#1B1164">TO-BE</text>
+  </g>
+
+  <!-- ── CONTENT ROWS ────────────────────────────────────────────────── -->
+  <g id="content-rows">
+
+    <!-- ── Row 1: Core Finance ERP ── -->
+    <g id="row-1">
+      <!-- As-Is cell -->
+      <rect x="60" y="148" width="530" height="110" fill="#FFFFFF" fill-opacity="0.8"/>
+      <rect x="60" y="148" width="4" height="110" fill="#C00000"/>
+      <text x="76" y="178"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="15" font-weight="bold" fill="#1B1164">SAP ECC 6.0</text>
+      <text x="76" y="200"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="13" fill="#5E5E5E">Core GL, AP, AR &#183; 140 Finance users</text>
+      <text x="76" y="222"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="13" fill="#5E5E5E">Manual month-end close &#183; 5-day cycle</text>
+      <text x="76" y="244"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="13" fill="#C00000" font-weight="bold">Decommission by Sep 2026</text>
+
+      <!-- Arrow -->
+      <use data-icon="tabler-filled/arrow-big-right" x="606" y="183" width="68" height="44" fill="#1B1164" fill-opacity="0.35"/>
+
+      <!-- To-Be cell -->
+      <rect x="690" y="148" width="530" height="110" fill="#FFFFFF" fill-opacity="0.9"/>
+      <rect x="690" y="148" width="4" height="110" fill="#3BBF92"/>
+      <text x="706" y="178"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="15" font-weight="bold" fill="#1B1164">SAP S/4HANA</text>
+      <text x="706" y="200"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="13" fill="#5E5E5E">Universal Journal &#183; Fiori UX &#183; 140 Finance users</text>
+      <text x="706" y="222"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="13" fill="#5E5E5E">Automated close &#183; Target 2-day cycle</text>
+      <text x="706" y="244"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="13" fill="#3BBF92" font-weight="bold">Go-Live Oct 2026</text>
+
+      <!-- Row separator -->
+      <line x1="60" y1="258" x2="1220" y2="258" stroke="#D5D5D5" stroke-width="1"/>
+    </g>
+
+    <!-- ── Row 2: T&amp;E ── -->
+    <g id="row-2">
+      <!-- As-Is cell -->
+      <rect x="60" y="259" width="530" height="110" fill="#F5F5F5" fill-opacity="0.8"/>
+      <rect x="60" y="259" width="4" height="110" fill="#C00000"/>
+      <text x="76" y="289"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="15" font-weight="bold" fill="#1B1164">E-Payment Portal + Concur Legacy</text>
+      <text x="76" y="311"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="13" fill="#5E5E5E">Parallel systems &#183; 340 requestors</text>
+      <text x="76" y="333"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="13" fill="#5E5E5E">Manual paper approval &#183; HQ only</text>
+      <text x="76" y="355"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="13" fill="#C00000" font-weight="bold">Both decommissioned</text>
+
+      <!-- Arrow -->
+      <use data-icon="tabler-filled/arrow-big-right" x="606" y="294" width="68" height="44" fill="#1B1164" fill-opacity="0.35"/>
+
+      <!-- To-Be cell -->
+      <rect x="690" y="259" width="530" height="110" fill="#F5F5F5" fill-opacity="0.9"/>
+      <rect x="690" y="259" width="4" height="110" fill="#3BBF92"/>
+      <text x="706" y="289"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="15" font-weight="bold" fill="#1B1164">SAP Concur (upgraded)</text>
+      <text x="706" y="311"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="13" fill="#5E5E5E">Mobile app &#183; All-staff &#183; 340 requestors</text>
+      <text x="706" y="333"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="13" fill="#5E5E5E">Digital approval &#183; Field + HQ coverage</text>
+      <text x="706" y="355"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="13" fill="#3BBF92" font-weight="bold">Go-Live Aug 2026</text>
+
+      <!-- Row separator -->
+      <line x1="60" y1="369" x2="1220" y2="369" stroke="#D5D5D5" stroke-width="1"/>
+    </g>
+
+    <!-- ── Row 3: CO Tracker ── -->
+    <g id="row-3">
+      <!-- As-Is cell -->
+      <rect x="60" y="370" width="530" height="110" fill="#FFFFFF" fill-opacity="0.8"/>
+      <rect x="60" y="370" width="4" height="110" fill="#C00000"/>
+      <text x="76" y="400"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="15" font-weight="bold" fill="#1B1164">Manual Excel CO Tracker</text>
+      <text x="76" y="422"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="13" fill="#5E5E5E">Shadow tool &#183; CO team 20 users</text>
+      <text x="76" y="444"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="13" fill="#5E5E5E">No ECC integration &#183; error-prone</text>
+      <text x="76" y="466"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="13" fill="#C00000" font-weight="bold">Decommission by Aug 2026</text>
+
+      <!-- Arrow -->
+      <use data-icon="tabler-filled/arrow-big-right" x="606" y="405" width="68" height="44" fill="#1B1164" fill-opacity="0.35"/>
+
+      <!-- To-Be cell -->
+      <rect x="690" y="370" width="530" height="110" fill="#FFFFFF" fill-opacity="0.9"/>
+      <rect x="690" y="370" width="4" height="110" fill="#3BBF92"/>
+      <text x="706" y="400"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="15" font-weight="bold" fill="#1B1164">S/4HANA Controlling (CO)</text>
+      <text x="706" y="422"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="13" fill="#5E5E5E">Native CO module &#183; Real-time budget visibility</text>
+      <text x="706" y="444"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="13" fill="#5E5E5E">Integrated with GL &#183; Single source of truth</text>
+      <text x="706" y="466"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="13" fill="#3BBF92" font-weight="bold">Go-Live Oct 2026</text>
+
+      <!-- Row separator -->
+      <line x1="60" y1="480" x2="1220" y2="480" stroke="#D5D5D5" stroke-width="1"/>
+    </g>
+
+    <!-- ── Row 4: Integration layer (new) ── -->
+    <g id="row-4">
+      <!-- As-Is cell (n/a) -->
+      <rect x="60" y="481" width="530" height="90" fill="#F5F5F5" fill-opacity="0.6"/>
+      <text x="325" y="534" text-anchor="middle"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="14" fill="#5E5E5E" font-style="italic">No integration layer</text>
+
+      <!-- Arrow -->
+      <use data-icon="tabler-filled/arrow-big-right" x="606" y="509" width="68" height="44" fill="#1B1164" fill-opacity="0.35"/>
+
+      <!-- To-Be cell -->
+      <rect x="690" y="481" width="530" height="90" fill="#1B1164" fill-opacity="0.06"/>
+      <rect x="690" y="481" width="4" height="90" fill="#00AEEF"/>
+      <text x="706" y="511"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="15" font-weight="bold" fill="#1B1164">Integration Middleware</text>
+      <text x="706" y="533"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="13" fill="#5E5E5E">SAP BTP / API Hub &#183; Concur &#8660; S/4HANA sync</text>
+      <text x="706" y="555"
+            font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+            font-size="13" fill="#00AEEF" font-weight="bold">New capability</text>
+
+    </g>
+  </g>
+
+  <!-- ── TABLE BORDER ───────────────────────────────────────────────── -->
+  <rect x="60" y="148" width="1160" height="423" fill="none" stroke="#D5D5D5" stroke-width="1"/>
+
+  <!-- ── LEGEND ────────────────────────────────────────────────────────── -->
+  <g id="legend">
+    <rect x="60" y="582" width="14" height="14" fill="#C00000"/>
+    <text x="82" y="594"
+          font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+          font-size="12" fill="#5E5E5E">Decommissioned</text>
+    <rect x="230" y="582" width="14" height="14" fill="#3BBF92"/>
+    <text x="252" y="594"
+          font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+          font-size="12" fill="#5E5E5E">New / Upgraded</text>
+    <rect x="400" y="582" width="14" height="14" fill="#00AEEF"/>
+    <text x="422" y="594"
+          font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+          font-size="12" fill="#5E5E5E">New Capability</text>
+  </g>
+
+  <!-- ── FOOTER ─────────────────────────────────────────────────────────── -->
+  <g id="footer">
+    <text x="778" y="697"
+          font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+          font-size="8" fill="#000000">Copyright &#169; 2026 Accenture. All rights reserved. Accenture Confidential Information</text>
+    <text x="1215" y="697" text-anchor="end"
+          font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
+          font-size="10" fill="#000000">7</text>
+  </g>
+
+</svg>
